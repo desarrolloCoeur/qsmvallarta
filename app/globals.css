@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary{
+        @apply bg-main text-white px-3 py-2 uppercase rounded-sm font-medium 
+    }
+
+    .btn-secondary{
+        @apply px-3 py-2 uppercase rounded-sm font-medium
+    }
+
+    h4{
+        @apply text-2xl uppercase font-semibold
+    }
+
+    h5{
+        @apply font-normal
+    }
+}
