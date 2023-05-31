@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
     return (
@@ -9,15 +9,23 @@ const Footer = () => {
                         <div className="mb-5">
                             <h4>Contact Us</h4>
                             <div className="bg-white h-px w-full"></div>
-                            <h5>PVR: (322) 373-5781</h5>
-                            <h5>qsmvallarta@gmail.com</h5>
+                            <h5 className="flex items-center justify-start gap-2">
+                                <FaPhone/> PVR: (322) 373-5781
+                            </h5>
+                            <h5 className="flex items-center justify-start gap-2">
+                                <FaEnvelope/> qsmvallarta@gmail.com
+                            </h5>
                         </div>
                         <div></div>
-                        <div className="mb-5">
+                        <div className="mb-5 ">
                             <h4>Follow Us</h4>
                             <div className="bg-white h-px w-full"></div>
-                            <h5>Facebook</h5>
-                            <h5>Instagram</h5>
+                            <h5 className="flex items-center justify-start gap-2 ">
+                                <FaFacebookSquare/> Facebook
+                            </h5>
+                            <h5 className="flex items-center justify-start gap-2">
+                                <FaInstagram/> Instagram
+                            </h5>
                         </div>
                     </div>
                     <div className="w-full">
