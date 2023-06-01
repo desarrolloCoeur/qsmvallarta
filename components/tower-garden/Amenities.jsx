@@ -63,17 +63,16 @@ const Amenities = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div className="flex flex-wrap gap-3 lg:my-12 my-6">
-                        <div className="md:w-2/3">
+                    
+                    <div className="flex flex-wrap gap-3 lg:my-12 my-6 items-center">
+                        <div className="md:w-[90%]">
                             <Image src="/img/garden.webp" alt="" height={600} width={700} />
                         </div>
-                        <div className="md:w-2/3">
+                        <div className="md:w-[90%]">
                             <Image src="/img/garden2.webp" alt="" height={600} width={700} />
                         </div>
                     </div>
-
 
                 </div>
             </div>
