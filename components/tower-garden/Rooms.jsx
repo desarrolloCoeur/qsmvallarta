@@ -13,36 +13,172 @@ const Rooms = () => {
         {
             id: "1",
             title: "Room Type - A",
-            bedrooms: "2",
-            bathroom: "2",
-            size: "144 m2 - 1,550 ft2",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "141 m2 – 1,518 ft2",
             gallery: [
-                "/img/tower-4/roomA.webp",
+                "/img/tower-garden/garden-roomA.webp",
                 "/img/img-2.webp",
                 "/img/img-3.webp",
             ],
             plan: "/img/tower-4/roomA1.webp",
-            interiorm: "82",
-            interiorsqf: "882",
-            terracem: "62",
-            terracesqf: "667",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
         },
         {
             id: "2",
             title: "Room Type - B",
-            bedrooms: "3",
-            bathroom: "3",
-            size: "394 m2 – 4,241 ft2",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "65 m2 – 699.5 ft2",
             gallery: [
-                "/img/tower-4/roomB.webp",
+                "/img/tower-garden/garden-roomB.webp",
                 "/img/img-2.webp",
                 "/img/img-3.webp",
             ],
             plan: "/img/tower-4/roomB1.webp",
-            interiorm: "146",
-            interiorsqf: "1571",
-            terracem: "248",
-            terracesqf: "2670",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
+        },
+        {
+            id: "3",
+            title: "Room Type - C",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "105 m2 – 1130 ft2",
+            gallery: [
+                "/img/tower-garden/garden-roomC.webp",
+                "/img/img-2.webp",
+                "/img/img-3.webp",
+            ],
+            plan: "/img/tower-4/roomB1.webp",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
+        },
+        {
+            id: "4",
+            title: "Room Type - D",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "112 m2 – 1205.5 ft2",
+            gallery: [
+                "/img/tower-garden/garden-roomD.webp",
+                "/img/img-2.webp",
+                "/img/img-3.webp",
+            ],
+            plan: "/img/tower-4/roomB1.webp",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
+        },
+        {
+            id: "5",
+            title: "Room Type - E",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "127 m2 – 1,367 ft2",
+            gallery: [
+                "/img/tower-garden/garden-roomE.webp",
+                "/img/img-2.webp",
+                "/img/img-3.webp",
+            ],
+            plan: "/img/tower-4/roomB1.webp",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
+        },
+        {
+            id: "6",
+            title: "Room Type - F",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "53 m2 – 570.5 ft2",
+            gallery: [
+                "/img/tower-garden/garden-roomF.webp",
+                "/img/img-2.webp",
+                "/img/img-3.webp",
+            ],
+            plan: "/img/tower-4/roomB1.webp",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
+        },
+        {
+            id: "7",
+            title: "Room Type - G",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "242.2 m2 – 2,607 ft2",
+            gallery: [
+                "/img/tower-garden/garden-roomG.webp",
+                "/img/img-2.webp",
+                "/img/img-3.webp",
+            ],
+            plan: "/img/tower-4/roomB1.webp",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
+        },
+        {
+            id: "8",
+            title: "Room Type - H",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "225 m2 – 2,422 ft2",
+            gallery: [
+                "/img/tower-garden/garden-roomH.webp",
+                "/img/img-2.webp",
+                "/img/img-3.webp",
+            ],
+            plan: "/img/tower-4/roomB1.webp",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
+        },
+        {
+            id: "9",
+            title: "Room Type - I",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "157.5 m2 – 1,695 ft2",
+            gallery: [
+                "/img/tower-garden/garden-roomI.webp",
+                "/img/img-2.webp",
+                "/img/img-3.webp",
+            ],
+            plan: "/img/tower-4/roomB1.webp",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
+        },
+        {
+            id: "10",
+            title: "Room Type - J",
+            bedrooms: "0",
+            bathroom: "0",
+            size: "299.5 m2 – 3,223 ft2",
+            gallery: [
+                "/img/tower-garden/garden-roomJ.webp",
+                "/img/img-2.webp",
+                "/img/img-3.webp",
+            ],
+            plan: "/img/tower-4/roomB1.webp",
+            interiorm: "0",
+            interiorsqf: "0",
+            terracem: "0",
+            terracesqf: "0",
         },
     ];
 
@@ -64,7 +200,8 @@ const Rooms = () => {
     };
 
     return (
-        <div className="lg:m-24 m-6 container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 grid-cols-1">
+        <div className="lg:m-24 m-6">
+        <div className=" container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 grid-cols-1">
             {data.map((room, index) => (
                 <div key={index}>
                     {showPlan[room.id] ? (
@@ -147,6 +284,7 @@ const Rooms = () => {
                     </div>
                 </div>
             ))}
+        </div>
         </div>
     );
 };
