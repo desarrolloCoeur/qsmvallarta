@@ -18,4 +18,8 @@
     h5{
         @apply font-normal
     }
+
+    .textroom{
+        @apply text-lg lining-nums tracking-wide leading-relaxed 
+    }
 }
