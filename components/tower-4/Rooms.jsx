@@ -417,7 +417,7 @@ const Rooms = () => {
 
     return (
         <div className="lg:m-24 m-6">
-            <div className=" container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 grid-cols-1">
+            <div className=" container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 grid-cols-1 text-center m-auto">
                 {data.map((room, index) => (
                     <div key={index}>
                         {showPlan[room.id] ? (
@@ -442,7 +442,7 @@ const Rooms = () => {
                             </>
                         )}
 
-                        <h3>{room.title}</h3>
+                        <h3 className="font-bold lg:text-5xl text-3xl my-6">{room.title}</h3>
                         {showInfo[room.id] ? (
                             <div>
                                 <table>
@@ -467,17 +467,17 @@ const Rooms = () => {
                             </div>
                         ) : (
                             <div>
-                                <div className="flex gap-2">
-                                    <div className="flex items-center gap-1">
+                                <div className="flex gap-3 m-auto justify-center">
+                                    <div className="flex items-center gap-2 textroom">
                                         <FaBed /> {room.bedrooms} Bedrooms
                                     </div>
-                                    <div className="flex items-center gap-1">
+                                    <div className="flex items-center gap-1 textroom ">
                                         <FaBath /> {room.bathroom} Bathrooms
                                     </div>
                                 </div>
                                 <div>
-                                    <p>{room.size}</p>
-                                    <div className="flex ">
+                                    <p className="textroom">{room.size}</p>
+                                    <div className="flex justify-center ">
                                         <FaLongArrowAltLeft />
                                         <FaLongArrowAltRight />
                                     </div>
