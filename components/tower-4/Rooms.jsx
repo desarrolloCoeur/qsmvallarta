@@ -419,7 +419,7 @@ const Rooms = () => {
         <div className="lg:m-24 m-6">
             <div className=" container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 grid-cols-1 text-center m-auto">
                 {data.map((room, index) => (
-                    <div key={index}>
+                    <div key={index} className="border border-slate-300 pb-6">
                         {showPlan[room.id] ? (
                             <>
                                 <Image
@@ -442,25 +442,25 @@ const Rooms = () => {
                             </>
                         )}
 
-                        <h3 className="font-bold lg:text-5xl text-3xl my-6">{room.title}</h3>
+                        <h3 className="font-bold lg:text-4xl text-2xl my-6 mx-3">{room.title}</h3>
                         {showInfo[room.id] ? (
-                            <div>
-                                <table>
+                            <div className="flex gap-3 m-auto justify-center">
+                                <table className="flex items-center gap-2 textroom border-collapse">
                                     <tbody>
                                         <tr>
-                                            <td></td>
-                                            <td>M2</td>
-                                            <td>SQF</td>
+                                            <td className="border border-slate-300 py-1 px-3"></td>
+                                            <td className="border border-slate-300 py-1 px-3">M2</td>
+                                            <td className="border border-slate-300 py-1 px-3">SQF</td>
                                         </tr>
                                         <tr>
-                                            <td>Interior</td>
-                                            <td>{room.interiorm}</td>
-                                            <td>{room.interiorsqf}</td>
+                                            <td className="border border-slate-300 py-1 px-3">Interior</td>
+                                            <td className="border border-slate-300 py-1 px-3">{room.interiorm}</td>
+                                            <td className="border border-slate-300 py-1 px-3">{room.interiorsqf}</td>
                                         </tr>
                                         <tr>
-                                            <td>Terrace</td>
-                                            <td>{room.terracem}</td>
-                                            <td>{room.terracesqf}</td>
+                                            <td className="border border-slate-300 py-1 px-3">Terrace</td>
+                                            <td className="border border-slate-300 py-1 px-3">{room.terracem}</td>
+                                            <td className="border border-slate-300 py-1 px-3">{room.terracesqf}</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -484,7 +484,7 @@ const Rooms = () => {
                                 </div>
                             </div>
                         )}
-                        <div>
+                        <div className="pt-6">
                             <button
                                 className="btn-primary"
                                 onClick={() => toggleInfo(room.id)}

@@ -11,8 +11,7 @@ export default function Home() {
     <main>
       <div>
         <div>
-          <Image src="/img/2-1-scaled.jpg" alt="" height={600} width={700} />
-          {/* <img class="w-full" src="img/2-1-scaled.jpg" alt=""> */}
+          <Image src="/img/2-1-scaled.jpg" className='h-[100dvh] w-full object-cover'  height={1920} width={1080} />
         </div>
 
         <div class="lg:mx-32 mx-6 lg:py-24 py-6">
