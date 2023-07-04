@@ -17,9 +17,9 @@ const Rooms = () => {
             bathroom: "2",
             size: "144 m2 - 1,550 ft2",
             gallery: [
-                "/img/tower-4/roomA.webp",
-                "/img/tower-4/roomA2.webp",
+                // "/img/tower-4/roomA.webp",
                 "/img/tower-4/roomA3.webp",
+                "/img/tower-4/roomA2.webp",
             ],
             plan: "/img/tower-4/roomA1.webp",
             interiorm: "82",
@@ -34,7 +34,7 @@ const Rooms = () => {
             bathroom: "3",
             size: "394 m2 – 4,241 ft2",
             gallery: [
-                "/img/tower-4/roomB.webp",
+                // "/img/tower-4/roomB.webp",
                 "/img/tower-4/roomB2.webp",
                 "/img/tower-4/roomB3.webp",
             ],
@@ -51,7 +51,7 @@ const Rooms = () => {
             bathroom: "3",
             size: "219 m2 – 2,357 ft2",
             gallery: [
-                "/img/tower-4/roomC.webp",
+                // "/img/tower-4/roomC.webp",
                 "/img/tower-4/roomC2.webp",
                 "/img/tower-4/roomC3.webp",
             ],
@@ -68,7 +68,7 @@ const Rooms = () => {
             bathroom: "3",
             size: "235 m2 – 2,529 ft2",
             gallery: [
-                "/img/tower-4/roomD.webp",
+                // "/img/tower-4/roomD.webp",
                 "/img/tower-4/roomD2.webp",
                 "/img/tower-4/roomD3.webp",
             ],
@@ -85,7 +85,7 @@ const Rooms = () => {
             bathroom: "3",
             size: "216 m2 – 2,325 ft2",
             gallery: [
-                "/img/tower-4/roomE.webp",
+                // "/img/tower-4/roomE.webp",
                 "/img/tower-4/roomE2.webp",
                 "/img/tower-4/roomE3.webp",
             ],
@@ -102,7 +102,7 @@ const Rooms = () => {
             bathroom: "3",
             size: "267 m2 – 2,874 ft2",
             gallery: [
-                "/img/tower-4/roomF.webp",
+                // "/img/tower-4/roomF.webp",
                 "/img/tower-4/roomF2.webp",
                 "/img/tower-4/roomF3.webp",
             ],
@@ -119,9 +119,9 @@ const Rooms = () => {
             bathroom: "1",
             size: "71 m2 – 764 ft2",
             gallery: [
-                "/img/tower-4/roomG.webp",
-                "/img/tower-4/roomG2.webp",
+                // "/img/tower-4/roomG.webp",
                 "/img/tower-4/roomG3.webp",
+                "/img/tower-4/roomG2.webp",
             ],
             plan: "/img/tower-4/roomG1.webp",
             interiorm: "53",
@@ -136,9 +136,9 @@ const Rooms = () => {
             bathroom: "1",
             size: "60 m2 – 645 ft2",
             gallery: [
-                "/img/tower-4/roomH.webp",
-                "/img/tower-4/roomH2.webp",
+                // "/img/tower-4/roomH.webp",
                 "/img/tower-4/roomH3.webp",
+                "/img/tower-4/roomH2.webp",
             ],
             plan: "/img/tower-4/roomH1.webp",
             interiorm: "54",
@@ -153,9 +153,9 @@ const Rooms = () => {
             bathroom: "3",
             size: "174 m2 – 1873 ft2",
             gallery: [
-                "/img/tower-4/roomI.webp",
-                "/img/tower-4/roomI2.webp",
+                // "/img/tower-4/roomI.webp",
                 "/img/tower-4/roomI3.webp",
+                "/img/tower-4/roomI2.webp",
             ],
             plan: "/img/tower-4/roomI1.webp",
             interiorm: "142",
@@ -170,7 +170,7 @@ const Rooms = () => {
             bathroom: "2",
             size: "135 m2 – 1,453 ft2",
             gallery: [
-                "/img/tower-4/roomJ.webp",
+                // "/img/tower-4/roomJ.webp",
                 "/img/tower-4/roomJ2.webp",
                 "/img/tower-4/roomJ3.webp",
             ],
@@ -187,9 +187,9 @@ const Rooms = () => {
             bathroom: "2",
             size: "106 m2 – 1141 ft2",
             gallery: [
-                "/img/tower-4/roomK.webp",
-                "/img/tower-4/roomK2.webp",
+                // "/img/tower-4/roomK.webp",
                 "/img/tower-4/roomK3.webp",
+                "/img/tower-4/roomK2.webp",
             ],
             plan: "/img/tower-4/roomK1.webp",
             interiorm: "95.6",
@@ -204,7 +204,7 @@ const Rooms = () => {
             bathroom: "2",
             size: "160 m2 – 1,722 ft2",
             gallery: [
-                "/img/tower-4/roomL.webp",
+                // "/img/tower-4/roomL.webp",
                 "/img/tower-4/roomL2.webp",
                 "/img/tower-4/roomL3.webp",
             ],
@@ -221,15 +221,11 @@ const Rooms = () => {
             bathroom: "2.5",
             size: "150 m2 – 1616 ft2",
             gallery: [
-                "/img/tower-4/roomPHG.webp",
-                "/img/tower-4/roomPHG1.webp",
+                // "/img/tower-4/roomPHG.webp",
                 "/img/tower-4/roomPHG2.webp",
+                "/img/tower-4/roomPHG1.webp",
             ],
-            plan: [ 
-                "/img/tower-4/roomPHG3.webp",
-                "/img/tower-4/roomPHG4.webp",
-                "/img/tower-4/roomPHG5.webp",
-            ],
+            plan: "/img/tower-4/roomPHG3.webp",
             interiorm: "84",
             interiorsqf: "904",
             terracem: "18",
@@ -244,15 +240,11 @@ const Rooms = () => {
             bathroom: "2.5",
             size: "152 m2 – 1636 ft2",
             gallery: [
-                "/img/tower-4/roomPHH.webp",
+                // "/img/tower-4/roomPHH.webp",
                 "/img/tower-4/roomPHH1.webp",
                 "/img/tower-4/roomPHH2.webp",
             ],
-            plan: [ 
-                "/img/tower-4/roomPHH3.webp",
-                "/img/tower-4/roomPHH4.webp",
-                "/img/tower-4/roomPHH5.webp",
-            ],
+            plan:"/img/tower-4/roomPHH3.webp",
             interiorm: "90",
             interiorsqf: "968.75",
             terracem: "6",
@@ -267,15 +259,11 @@ const Rooms = () => {
             bathroom: "3.5",
             size: "408 m2 – 4391 ft2",
             gallery: [
-                "/img/tower-4/roomPHI.webp",
+                // "/img/tower-4/roomPHI.webp",
                 "/img/tower-4/roomPHI1.webp",
                 "/img/tower-4/roomPHI2.webp",
             ],
-            plan: [ 
-                "/img/tower-4/roomPHI3.webp",
-                "/img/tower-4/roomPHI4.webp",
-                "/img/tower-4/roomPHI5.webp",
-            ],
+            plan:"/img/tower-4/roomPHI3.webp",
             interiorm: "232",
             interiorsqf: "2497",
             terracem: "32",
@@ -290,15 +278,11 @@ const Rooms = () => {
             bathroom: "4.5",
             size: "328 m2 – 3531 ft2",
             gallery: [
-                "/img/tower-4/roomPHJ.webp",
+                // "/img/tower-4/roomPHJ.webp",
                 "/img/tower-4/roomPHJ1.webp",
                 "/img/tower-4/roomPHJ2.webp",
             ],
-            plan: [ 
-                "/img/tower-4/roomPHJ3.webp",
-                "/img/tower-4/roomPHJ4.webp",
-                "/img/tower-4/roomPHJ5.webp",
-            ],            
+            plan:"/img/tower-4/roomPHJ3.webp",            
             interiorm: "193.5",
             interiorsqf: "2083",
             terracem: "17.5",
@@ -313,15 +297,11 @@ const Rooms = () => {
             bathroom: "3.5",
             size: "265 m2 – 2855 ft2",
             gallery: [
-                "/img/tower-4/roomPHK605.webp",
+                // "/img/tower-4/roomPHK605.webp",
                 "/img/tower-4/roomPHK605-1.webp",
                 "/img/tower-4/roomPHK605-2.webp",
             ],
-            plan: [ 
-                "/img/tower-4/roomPHK605-3.webp",
-                "/img/tower-4/roomPHK605-4.webp",
-                "/img/tower-4/roomPHK605-5.webp",
-            ],       
+            plan:"/img/tower-4/roomPHK605-3.webp",       
             interiorm: "159.25",
             interiorsqf: "1714",
             terracem: "10.4",
@@ -336,15 +316,11 @@ const Rooms = () => {
             bathroom: "3.5",
             size: "268.4 m2 – 2888 ft2",
             gallery: [
-                "/img/tower-4/roomPHK606.webp",
-                "/img/tower-4/roomPHK606-1.webp",
+                // "/img/tower-4/roomPHK606.webp",
                 "/img/tower-4/roomPHK606-2.webp",
+                "/img/tower-4/roomPHK606-1.webp",
             ],
-            plan: [
-                "/img/tower-4/roomPHK606-3.webp",
-                "/img/tower-4/roomPHK606-4.webp",
-                "/img/tower-4/roomPHK606-5.webp",
-            ],            
+            plan:"/img/tower-4/roomPHK606-3.webp",            
             interiorm: "162.6",
             interiorsqf: "1750",
             terracem: "10.4",
@@ -359,15 +335,12 @@ const Rooms = () => {
             bathroom: "3.5",
             size: "268 m2 – 2884 ft2",
             gallery: [
-                "/img/tower-4/roomPHK607.webp",
+                // "/img/tower-4/roomPHK607.webp",
                 "/img/tower-4/roomPHK607-1.webp",
                 "/img/tower-4/roomPHK607-2.webp",
             ],
-            plan: [
-                "/img/tower-4/roomPHK607-3.webp",
-                "/img/tower-4/roomPHK607-4.webp",
-                "/img/tower-4/roomPHK607-5.webp",
-            ],            interiorm: "162",
+            plan:"/img/tower-4/roomPHK607-3.webp",
+            interiorm: "162",
             interiorsqf: "1743.75",
             terracem: "10.4",
             terracesqf: "112",
@@ -381,14 +354,11 @@ const Rooms = () => {
             bathroom: "3.5",
             size: "335 m2 – 3606 ft2.",
             gallery: [
-                "/img/tower-4/roomPHL.webp",
+                // "/img/tower-4/roomPHL.webp",
                 "/img/tower-4/roomPHL1.webp",
                 "/img/tower-4/roomPHL2.webp",
             ],
-            plan: [
-                "/img/tower-4/roomPHL3.webp",
-                "/img/tower-4/roomPHL4.webp",
-            ],
+            plan:"/img/tower-4/roomPHL3.webp",
             interiorm: "195",
             interiorsqf: "2099",
             terracem: "45",
@@ -426,8 +396,8 @@ const Rooms = () => {
                                     className="w-full object-cover h-60"
                                     src={room.plan}
                                     alt={room.title}
-                                    width={300}
-                                    height={380}
+                                    width={500}
+                                    height={600}
                                 />
                             </>
                         ) : (
@@ -436,8 +406,8 @@ const Rooms = () => {
                                     className="w-full object-cover h-60"
                                     src={room.gallery[0]}
                                     alt={room.title}
-                                    width={300}
-                                    height={380}
+                                    width={500}
+                                    height={600}
                                 />
                             </>
                         )}

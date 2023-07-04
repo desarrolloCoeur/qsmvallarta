@@ -17,7 +17,7 @@ const Rooms = () => {
             bathroom: "0",
             size: "141 m2 – 1,518 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomA.webp",
+                // "/img/tower-garden/garden-roomA.webp",
                 "/img/tower-garden/garden-roomA2.webp",
             ],
             plan: "/img/tower-garden/garden-roomA1.webp",
@@ -33,7 +33,7 @@ const Rooms = () => {
             bathroom: "0",
             size: "65 m2 – 699.5 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomB.webp",
+                // "/img/tower-garden/garden-roomB.webp",
                 "/img/tower-garden/garden-roomB2.webp",
             ],
             plan: "/img/tower-garden/garden-roomB1.webp",
@@ -49,7 +49,7 @@ const Rooms = () => {
             bathroom: "0",
             size: "105 m2 – 1130 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomC.webp",
+                // "/img/tower-garden/garden-roomC.webp",
                 "/img/tower-garden/garden-roomC2.webp",
             ],
             plan: "/img/tower-garden/garden-roomC1.webp",
@@ -65,7 +65,7 @@ const Rooms = () => {
             bathroom: "0",
             size: "112 m2 – 1205.5 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomD.webp",
+                // "/img/tower-garden/garden-roomD.webp",
                 "/img/tower-garden/garden-roomD2.webp",
             ],
             plan: "/img/tower-garden/garden-roomD1.webp",
@@ -81,7 +81,7 @@ const Rooms = () => {
             bathroom: "0",
             size: "127 m2 – 1,367 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomE.webp",
+                // "/img/tower-garden/garden-roomE.webp",
                 "/img/tower-garden/garden-roomE2.webp",
             ],
             plan: "/img/tower-garden/garden-roomE1.webp",
@@ -97,7 +97,7 @@ const Rooms = () => {
             bathroom: "0",
             size: "53 m2 – 570.5 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomF.webp",
+                // "/img/tower-garden/garden-roomF.webp",
                 "/img/tower-garden/garden-roomF2.webp",
             ],
             plan: "/img/tower-garden/garden-roomF1.webp",
@@ -113,16 +113,12 @@ const Rooms = () => {
             bathroom: "0",
             size: "242.2 m2 – 2,607 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomG.webp",
+                // "/img/tower-garden/garden-roomG.webp",
                 "/img/tower-garden/garden-roomG4.webp",
                 "/img/tower-garden/garden-roomG5.webp",
                 "/img/tower-garden/garden-roomG6.webp",
             ],
-            plan: [ 
-                "/img/tower-garden/garden-roomG1.webp",
-                "/img/tower-garden/garden-roomG2.webp",
-                "/img/tower-garden/garden-roomG3.webp",
-            ],
+            plan:"/img/tower-garden/garden-roomG3.webp",
             interiorm: "0",
             interiorsqf: "0",
             terracem: "0",
@@ -135,16 +131,12 @@ const Rooms = () => {
             bathroom: "0",
             size: "225 m2 – 2,422 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomH.webp",
+                // "/img/tower-garden/garden-roomH.webp",
                 "/img/tower-garden/garden-roomH4.webp",
                 "/img/tower-garden/garden-roomH5.webp",
                 "/img/tower-garden/garden-roomH6.webp",
             ],
-            plan: [ 
-                "/img/tower-garden/garden-roomH1.webp",
-                "/img/tower-garden/garden-roomH2.webp",
-                "/img/tower-garden/garden-roomH3.webp",
-            ],
+            plan:"/img/tower-garden/garden-roomH3.webp",
             interiorm: "0",
             interiorsqf: "0",
             terracem: "0",
@@ -157,14 +149,11 @@ const Rooms = () => {
             bathroom: "0",
             size: "157.5 m2 – 1,695 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomI.webp",
+                // "/img/tower-garden/garden-roomI.webp",
                 "/img/tower-garden/garden-roomI3.webp",
                 "/img/tower-garden/garden-roomI4.webp",
             ],
-            plan: [ 
-                "/img/tower-garden/garden-roomI1.webp",
-                "/img/tower-garden/garden-roomI2.webp",
-            ],
+            plan:"/img/tower-garden/garden-roomI2.webp",
             interiorm: "0",
             interiorsqf: "0",
             terracem: "0",
@@ -177,16 +166,12 @@ const Rooms = () => {
             bathroom: "0",
             size: "299.5 m2 – 3,223 ft2",
             gallery: [
-                "/img/tower-garden/garden-roomJ.webp",
+                // "/img/tower-garden/garden-roomJ.webp",
                 "/img/tower-garden/garden-roomJ4.webp",
                 "/img/tower-garden/garden-roomJ5.webp",
                 "/img/tower-garden/garden-roomJ6.webp",
             ],
-            plan: [ 
-                "/img/tower-garden/garden-roomJ1.webp",
-                "/img/tower-garden/garden-roomJ2.webp",
-                "/img/tower-garden/garden-roomJ3.webp",
-            ],
+            plan:"/img/tower-garden/garden-roomJ3.webp",
             interiorm: "0",
             interiorsqf: "0",
             terracem: "0",
@@ -222,8 +207,8 @@ const Rooms = () => {
                                 className="w-full object-cover h-60"
                                 src={room.plan}
                                 alt={room.title}
-                                width={300}
-                                height={380}
+                                width={500}
+                                height={600}
                             />   
                         </>
                     ) : (
@@ -232,8 +217,8 @@ const Rooms = () => {
                                 className="w-full object-cover h-60"
                                 src={room.gallery[0]}
                                 alt={room.title}
-                                width={300}
-                                height={380}
+                                width={500}
+                                height={600}
                             />
                         </>
                     )}
