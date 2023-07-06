@@ -391,25 +391,29 @@ const Rooms = () => {
                 {data.map((room, index) => (
                     <div key={index} className="border border-slate-300 pb-6">
                         {showPlan[room.id] ? (
+                            <div className=" m-6">
                             <>
                                 <Image
-                                    className="w-full object-cover h-60"
+                                    className="w-full object-contain h-60"
                                     src={room.plan}
                                     alt={room.title}
                                     width={500}
                                     height={600}
                                 />
                             </>
+                            </div>
                         ) : (
+                            <div className=" m-6">
                             <>
                                 <Image
-                                    className="w-full object-cover h-60"
+                                    className="w-full object-contain h-60"
                                     src={room.gallery[0]}
                                     alt={room.title}
                                     width={500}
                                     height={600}
                                 />
                             </>
+                            </div>
                         )}
 
                         <h3 className="font-bold lg:text-4xl text-2xl my-6 mx-3">{room.title}</h3>
