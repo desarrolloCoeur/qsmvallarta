@@ -39,7 +39,7 @@ const Tab = () => {
 
 
                 {/* 2020 */}
-                {activeTab === 1 && <div className="tab_panel flex flex-wrap gap-6">
+                {activeTab === 1 && <div className="tab_panel flex flex-wrap gap-6 ">
                     {/* early */}
                     <Image src={'/img/work-in-progress/2020/early/avance-1.jpg'} height={135} width={240}/>
                     <Image src={'/img/work-in-progress/2020/early/avance-2.jpg'} height={135} width={240}/>
