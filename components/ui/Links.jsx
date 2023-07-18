@@ -26,13 +26,9 @@ const Links = () => {
     // Estado para controlar si el menú desplegable está abierto o cerrado
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    // Funciones para manejar eventos de hover
-    const handleMouseEnter = () => {
-        setIsMenuOpen(true);
-    };
-
-    const handleMouseLeave = () => {
-        setIsMenuOpen(false);
+    // Función para manejar el clic en el botón
+    const handleButtonClick = () => {
+        setIsMenuOpen(!isMenuOpen); // Cambiamos el estado al contrario del valor actual
     };
 
     return (
@@ -42,12 +38,13 @@ const Links = () => {
                     return (
                         <div
                             key={index}
-                            onMouseEnter={handleMouseEnter}
-                            onMouseLeave={handleMouseLeave}
                             className="menu-container"
                         >
-                            {/* Agrega un botón para el enlace */}
-                            <button className="text-white uppercase font-semibold text-lg">
+                            {/* Agrega un botón para el enlace y maneja el clic */}
+                            <button
+                                className="text-white uppercase font-semibold text-lg"
+                                onClick={handleButtonClick}
+                            >
                                 {menu.title}
                             </button>
                             {isMenuOpen && (
@@ -79,3 +76,4 @@ const Links = () => {
 };
 
 export default Links;
+

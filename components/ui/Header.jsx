@@ -14,11 +14,6 @@ const Header = () => {
     };
 
 
-    const toogleMenuWork = ()=>{
-
-    }
-
-
     return (
         <>
             <nav className="bg-main py-2">
