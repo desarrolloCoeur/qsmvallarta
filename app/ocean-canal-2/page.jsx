@@ -11,7 +11,7 @@ const page = () => {
                 <h4 className='bg-main/90 text-white py-5 px-12 lg:text-7xl text-3xl inline-block'>Ocean & Canal 2</h4>
             </div>
 
-            <div class="lg:mx-24 mx-6 lg:py-12 py-6">
+            <div class="lg:mx-24 mx-6 lg:pt-12 pt-6">
                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 ">                    
                     <div>
                         <figure class="relative cursor-pointer">
@@ -31,7 +31,6 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <h4 className='py-5 lg:px-24 px-6 lg:text-7xl text-5xl'>Galeria</h4>
 
             <Galery/>
         </>

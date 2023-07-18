@@ -45,8 +45,9 @@ const Galery = () => {
     const [showPlan] = useState({});
 
     return (
-        <div className="lg:mx-24 mx-6 my-6">
-            <div className=" container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-6  grid-cols-1 text-center m-auto">
+        <div className="lg:mx-24 mx-6 lg:my-12 my-6">
+            <h4 className='lg:py-5 py-0 lg:text-6xl text-2xl'>Galería de Interiores</h4>
+            <div className=" container mx-auto grid lg:grid-cols-3 md:grid-cols-2 lg:gap-6 gap-0 grid-cols-1 text-center m-auto">
                 {data.map((room, index) => (
                     <div key={index} >
                         {showPlan[room.id] = (
