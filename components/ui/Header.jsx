@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import Links from "./Links";
 
+
 const Header = () => {
 
     const [MenuOpen, setMenuOpen] = useState(false);
@@ -11,6 +12,7 @@ const Header = () => {
     const toggleMenu = () => {
         setMenuOpen(!MenuOpen);
     };
+
 
     return (
         <>
