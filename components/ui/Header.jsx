@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <>
             <nav className="bg-main py-2">
-                <div className="container mx-auto flex justify-between">
+                <div className="container mx-auto flex justify-between   px-6 py-3">
                     <Image
                         src="/img/qsm-logo.png"
                         width={180}

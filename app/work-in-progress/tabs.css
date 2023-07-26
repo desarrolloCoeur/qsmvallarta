@@ -24,3 +24,17 @@
     border-radius: 5px;
     min-height: 190px;
 }
+
+
+@media screen and (max-width:449px) {
+    .image img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:449px) {
+    .tabs {
+        justify-content:space-around;
+    }
+}
+
