@@ -38,9 +38,9 @@ const Builds = () => {
         {
             data.map((t,i) => {
                 return (
-                    <div key={i} className='relative transition-all bg-[rgba(0,0,0,0.5)]'>
+                    <div key={i} className='relative'>
                         <Image src={t.thumb} alt={t.title} width={900} height={450} className='object-cover'/>
-f                        <h3 className=' absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-white uppercase'>{t.title}</h3>
+                        <h3 className=' transition-all absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center text-white uppercase bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(0,0,0,0.7)]'>{t.title}</h3>
                     </div>
                 )
             })
