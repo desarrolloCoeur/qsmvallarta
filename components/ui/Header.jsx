@@ -28,6 +28,7 @@ const Header = () => {
                             className="w-32"
                         />
                     </Link>
+
                     <button
                         onClick={toggleMenu}
                         className="text-white flex items-center justify-end w-full text-2xl md:hidden"

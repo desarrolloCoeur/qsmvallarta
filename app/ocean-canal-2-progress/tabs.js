@@ -12,17 +12,17 @@ const Tab = () => {
 
     return (
         <div className='lg:mx-24 mx-3 mb-24 '>
-            <ul className="tabs">
+            <ul className="tabs  mx-3 flex flex-wrap content-center">
                 <li className={activeTab === 1 ? 'active' : ''} onClick={() => handleTabClick(1)}>2023</li>
             </ul>
 
             <div className="tab_content">
-            <ul className="tabs">
+            <ul className="tabs mb-6 flex flex-wrap">
                 <li className={activeTab === 1 ? 'active' : ''} onClick={() => handleTabClick(1)}>Marzo</li>
             </ul>
 
                 {/* 2023 */}
-                {activeTab === 1 && <div className="tab_panel flex flex-wrap gap-6 mt-12">
+                {activeTab === 1 && <div className="tab_panel flex flex-wrap gap-6 mt-12 image">
                     {/* Marzo */}
                     <Image src={'/img/ocean-canal-2/2023/marzo/marzo-5.webp'} height={135} width={240}/>
                     <Image src={'/img/ocean-canal-2/2023/marzo/marzo-6.webp'} height={135} width={240}/>
