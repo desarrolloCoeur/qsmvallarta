@@ -64,7 +64,7 @@ const Links = () => {
                 } else {
                     return (
                         <div key={index}>
-                            <Link href={menu.url} className="text-white uppercase font-semibold text-lg">
+                            <Link href={menu.url} className="text-white uppercase font-semibold text-lg font-nav">
                                 {menu.title}
                             </Link>
                         </div>

@@ -13,6 +13,9 @@ module.exports = {
         dorado: '#978060',
       }
     },
+    fontFamily: {
+      nav: ['var(--font-amiri)'],
+    },
   },
   plugins: [],
 }

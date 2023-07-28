@@ -1,4 +1,7 @@
+import React from 'react'
 
+const ContacUs = () => {
+  return (
     <div class="lg:mx-32 mx-6 lg:py-24 py-6 text-lg">
         <div class="flex justify-center">
             <div class="flex">
@@ -6,7 +9,7 @@
                 <h3 class="text-6xl font-light mb-10 ml-3"><strong> Us</strong></h3>
             </div>
         </div>
-        <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-3 lg:w-3/5 w-4/5 mx-auto block">
+        <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-3 lg:w-3/5 w-4/5 mx-auto">
             <div>
                 <h3 class="font-medium py-3">Name</h3>
                 <input class="border border-solid border-gray-300 rounded w-full h-10" type="text" />
@@ -25,3 +28,8 @@
             </div>
         </div>
     </div>
+  )
+}
+
+export default ContacUs
+
