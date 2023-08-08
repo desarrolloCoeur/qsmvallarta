@@ -14,7 +14,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      nav: ['var(--font-amiri)'],
+      nav: ['var(--font-noto)'],
     },
   },
   plugins: [],

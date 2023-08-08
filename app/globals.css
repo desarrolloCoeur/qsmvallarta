@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+    *{
+        @apply font-nav
+    }
+
     .btn-primary{
         @apply bg-main text-white px-3 py-2 uppercase rounded-sm font-medium 
     }
@@ -20,7 +24,7 @@
     }
 
     h3{
-        @apply text-3xl
+        @apply text-3xl font-bold
     }
 
     h4{
@@ -34,4 +38,8 @@
     .textroom{
         @apply text-lg lining-nums tracking-wide leading-relaxed 
     }
+}
+
+.background-header{
+    background: linear-gradient(180deg,rgba(0,0,0,.7) 0,rgba(0,0,0,.34) 80%,transparent);
 }

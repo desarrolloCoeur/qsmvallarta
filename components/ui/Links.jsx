@@ -1,26 +1,30 @@
-import React, { useState } from "react";
-import Link from "next/link";
-import './Header.css';
+import { useState } from "react";
+import NavLink from "@/components/ui/NavLink";
 
-const Links = () => {
+
+const NavLinks = () => {
     const data = [
         {
             title: "Home",
             url: "/",
         },
         {
-            title: "Tower 4",
-            url: "/tower-4",
+            title: "Ocean & Canal",
+            url: "#",
+        },
+        {
+            title: "Golf Residences",
+            url: "/golf-residences",
+        },
+        {
+            title: "Banderas Bay",
+            url: "/banderas-bay",
         },
         {
             title: "Garden",
             url: "/tower-garden",
-        },
-        {
-            title: "Work in Progress",
-            url: "/work-in-progress",
-            url2:"/ocean-canal-2-progress"
-        },
+        }
+        
     ];
 
     // Estado para controlar si el menú desplegable está abierto o cerrado
@@ -34,39 +38,45 @@ const Links = () => {
     return (
         <>
             {data.map((menu, index) => {
-                if (menu.title === "Work in Progress") {
-                    return (
-                        <div
-                            key={index}
-                            className="menu-container"
-                        >
-                            {/* Agrega un botón para el enlace y maneja el clic */}
-                            <button
-                                className="text-white uppercase font-semibold text-lg"
-                                onClick={handleButtonClick}
-                            >
-                                {menu.title}
-                            </button>
-                            {isMenuOpen && (
-                                <div className="dropdown-menu py-6 px-6">
-                                    {/* Contenido del menú desplegable */}
-                                    <Link href={menu.url} className="text-white uppercase font-semibold text-sm ">
-                                        Ocean & Canal
-                                    </Link><br/>
-                                    <Link href={menu.url2} className="text-white uppercase font-semibold text-sm ">
-                                        Ocean & Canal 2
-                                    </Link>
-                                    {/* Agrega más enlaces dentro del menú desplegable si es necesario */}
+            if (menu.title === "Ocean & Canal")  {
+                return (
+                    <div key={index} className="relative group">
+                        <div className="group-hover:mt-5">
+                            <NavLink href="#" multi>Ocean & Canal</NavLink>
+                        </div>   
+                        <div className="hidden group-hover:block  ">
+                            <div  className=" mb-5">
+                                <div className="grid grid-cols-2 absolute left-[-90px] gap-5  w-[650px] p-8 shadow-xl rounded-sm bg-white">
+                                    <div className="flex flex-col gap-5">
+                                        <NavLink href="/ocean-and-canal" title>
+                                            Ocean & Canal
+                                            <p className="mb-0"><span className="text-sm">Exclusive development with unique taste, offering a private canal.</span></p>
+                                        </NavLink>
+                                        <NavLink href="/ocean-and-canal/tower-1" subtitle>Tower 1</NavLink>
+                                        <NavLink href="/ocean-and-canal/tower-2-and-3" subtitle>Tower 2 y 3</NavLink>
+                                        <NavLink href="/ocean-and-canal/work-in-progress" subtitle>Work in Progress</NavLink>
+
+                                    </div>
+                                    <div className="flex flex-col gap-5">
+                                        <NavLink href="/ocean-and-canal-2" title>
+                                            Ocean & Canal 2
+                                            <p className="mb-0"><span className="text-sm">Exclusive development with unique taste, offering a private canal.</span></p>
+                                        </NavLink>
+                                        <NavLink href="/ocean-and-canal-2/tower-4" subtitle>Tower 4</NavLink>
+                                        <NavLink href="/ocean-and-canal-2/tower-5" subtitle>Tower 5</NavLink>
+                                        <NavLink href="/ocean-and-canal-2/work-in-progress" subtitle>Work in Progress</NavLink>
+                                    </div>
                                 </div>
-                            )}
+                            </div>
                         </div>
-                    );
+                    </div>
+                )
                 } else {
                     return (
                         <div key={index}>
-                            <Link href={menu.url} className="text-white uppercase font-semibold text-lg font-nav">
+                            <NavLink href={menu.url}  >
                                 {menu.title}
-                            </Link>
+                            </NavLink>
                         </div>
                     );
                 }
@@ -75,5 +85,5 @@ const Links = () => {
     );
 };
 
-export default Links;
+export default NavLinks;
 

@@ -1,4 +1,4 @@
-import Galery from '@/components/ocean-canal-2/Galery'
+import Gallery from '@/components/ocean-canal-2/Galery'
 import Image from 'next/image'
 import React from 'react'
 
@@ -32,7 +32,7 @@ const page = () => {
                 </div>
             </div>
 
-            <Galery/>
+            <Gallery/>
         </>
     )
 }

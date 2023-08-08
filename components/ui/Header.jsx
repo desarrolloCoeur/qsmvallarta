@@ -1,14 +1,33 @@
 "use client";
+
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import Links from "./Links";
 import Link from "next/link";
+import { handleClientScriptLoad } from "next/script";
 
 
 const Header = () => {
 
     const [MenuOpen, setMenuOpen] = useState(false);
+
+    const [scrolled,setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 600;
+            setScrolled(isScrolled);
+        }
+
+        window.addEventListener('scroll',  handleScroll)
+
+
+        return () => {
+            window.removeEventListener('scroll',  handleScroll)
+        }
+    })
+
 
     const toggleMenu = () => {
         setMenuOpen(!MenuOpen);
@@ -17,7 +36,7 @@ const Header = () => {
 
     return (
         <>
-            <nav className="bg-main py-2 px-3">
+            <nav className={`transition-all z-10 fixed w-full  py-2 px-3 ${scrolled ? 'bg-main' : 'background-header'}`}>
                 <div className="container mx-auto flex justify-between ">
                     <Link href="/">
                         <Image
@@ -25,7 +44,7 @@ const Header = () => {
                             width={180}
                             height={100}
                             alt="QSM Vallarta"
-                            className="w-32"
+                            className="w-36 md:w-44"
                         />
                     </Link>
 

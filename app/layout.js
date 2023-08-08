@@ -1,12 +1,13 @@
 import Footer from '../components/ui/Footer.jsx'
 import Header from '../components/ui/Header.jsx'
-import { Inter,Amiri } from 'next/font/google'
+import { Inter,Amiri, Noto_Sans } from 'next/font/google'
  
 
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'],  })
 const amiri = Amiri({subsets : ['latin'], weight : ['400'], variable : '--font-amiri'})
+const noto = Noto_Sans({subsets : ['latin'], weight : ['400','500','600','700','800','900'], variable : '--font-noto'})
 
 
 export const metadata = {
@@ -16,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${amiri.variable}`}>
+    <html lang="en" className={`${noto.variable}`}>
       <body>
         <Header />
         {children}

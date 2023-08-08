@@ -246,6 +246,7 @@ const Rooms = () => {
                                 </div>
                             </div>
                         )}
+                        
                         <div className="pt-6">
                             <button
                                 className="btn-primary"

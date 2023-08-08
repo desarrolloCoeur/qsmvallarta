@@ -1,6 +1,6 @@
 import React from 'react'
 // import Image from 'next/image'
-import Tab from '@/app/ocean-canal-2-progress/tabs'
+import Tab from '@/app/ocean-and-canal-2/work-in-progress/tabs'
 
 const page = () => {
     return (
