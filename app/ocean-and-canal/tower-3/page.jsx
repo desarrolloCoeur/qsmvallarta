@@ -1,4 +1,4 @@
-import Rooms from '@/components/tower-1-and-2/Rooms'
+import Rooms from '@/components/tower-3/Rooms'
 import ContacUs from '@/components/home/ContacUs'
 import Image from 'next/image'
 import React from 'react'
@@ -8,7 +8,7 @@ const page = () => {
     return (
         <>
             <div>
-                <Image src="/img/tower-1-and-2/TORRE-1Y2-1300X400PX.jpg" className=' w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' />
+                <Image src="/img/tower-3/tower-3.jpg" className=' w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' />
             </div>
 
             <div className='lg:m-24 m-6'>
