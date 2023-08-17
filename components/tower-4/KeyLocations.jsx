@@ -62,7 +62,7 @@ const KeyLocations = () => {
 
     return (
         <div className='mt-10'>
-            <h2>Key Locations</h2>
+            <h1>Key Locations</h1>
             <div className='flex gap-5 flex-wrap xl:flex-nowrap'>
                 <Image src="/img/tower-4/key-locations-tower-4.png" alt="" width={800} height={400} className='w-full xl:w-4/5'/>
                 <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-5 w-[95%] xl:w-1/3'>
