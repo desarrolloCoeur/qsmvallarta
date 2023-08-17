@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="w-full">
-                        <p className="text-center font-light pt-6">
+                        <p className="text-center font-light pt-6 text-white">
                             ©All Rights Reserved. Quinta San Miguel 2023 |
                             Powered by CoeurMKT
                         </p>
