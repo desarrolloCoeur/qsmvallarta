@@ -20,10 +20,14 @@ const NavLinks = () => {
             title: "Banderas Bay",
             url: "/banderas-bay",
         },
-        {
-            title: "Garden",
-            url: "/tower-garden",
-        }
+        // {
+        //     title: "Garden",
+        //     url: "/tower-garden",
+        // },
+        // {
+        //     title: "Progress",
+        //     url: "/progress",
+        // }
         
     ];
 
