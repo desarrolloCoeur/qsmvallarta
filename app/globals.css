@@ -4,7 +4,7 @@
 
 @layer components {
     *{
-        @apply font-nav
+        @apply font-nav font-extralight
     }
 
     .btn-primary{
@@ -12,19 +12,23 @@
     }
 
     .btn-secondary{
-        @apply px-3 py-2 uppercase rounded-sm font-medium
+        @apply px-3 py-2 uppercase rounded-sm font-medium text-[#212529]
     }
 
     p{
-        @apply font-light text-lg mb-3
+        @apply font-extralight text-lg mb-3 text-[#6c6d6c] 
     }
 
     h1{
-        @apply text-4xl md:text-6xl font-semibold mb-4
+        @apply text-4xl md:text-6xl font-semibold mb-5 text-[#212529]
     }
 
+    h2{
+        @apply text-5xl font-semibold mb-5 text-[#212529]
+    }
+    
     h3{
-        @apply text-3xl font-bold
+        @apply text-3xl font-bold text-[#212529]
     }
 
     h4{
@@ -35,11 +39,40 @@
         @apply font-normal
     }
 
-    .textroom{
-        @apply text-lg lining-nums tracking-wide leading-relaxed 
-    }
+    
 }
 
 .background-header{
     background: linear-gradient(180deg,rgba(0,0,0,.7) 0,rgba(0,0,0,.34) 80%,transparent);
+}
+
+.swiper{
+    overflow-y: initial !important;
+}
+
+
+.swiper-pagination{
+    bottom: -45px !important;
+    text-align: right !important;
+}
+
+.swiper-pagination-bullet-active{
+    background: #b0a49d !important;
+}
+
+
+.swiper-button-prev, .swiper-button-next{
+    top: 107% !important;
+    color:white !important;
+    background-color: #b0a49d;
+    border-radius: 5px;
+    z-index: 11 !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 25px !important;
+}
+
+.swiper-button-next{
+    left: 80px !important;
 }

@@ -23,6 +23,10 @@ const NavLinks = () => {
         {
             title: "Garden",
             url: "/tower-garden",
+        },
+        {
+            title: "Progress",
+            url: "/work-in-progress",
         }
         
     ];

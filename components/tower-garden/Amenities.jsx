@@ -14,12 +14,12 @@ const Amenities = () => {
     return (
         <div className="bg-verde">
             <div className="lg:mx-24 mx-6">
-                <div class="grid lg:grid-cols-2 grid-cols-1 text-white">
+                <div className="grid lg:grid-cols-2 grid-cols-1 text-white">
                     <div>
                         <h1 className="lg:mt-12 mt-10 text-center lg:text-4xl text-2xl font-semibold text-dorado">
                             A NEW CHAPTER OF QUINTA SAN MIGUEL DEVELOPMENT.
                         </h1>
-                        <div class="bg-white h-px w-3/4 mx-auto m-6"></div>
+                        <div className="bg-white h-px w-3/4 mx-auto m-6"></div>
                         <div className="flex items-center flex-col md:flex-row">
                             <div className="text-center  w-full">
                                 <p className="tracking-wide text-lg italic">
