@@ -1,12 +1,19 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import {
     FaBed,
     FaBath,
     FaLongArrowAltLeft,
     FaLongArrowAltRight,
 } from "react-icons/fa";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
 
 const Rooms = () => {
     const data = [
@@ -370,6 +377,7 @@ const Rooms = () => {
 
     const [showInfo, setShowInfo] = useState({});
     const [showPlan, setShowPlan] = useState({});
+    const [selectedBedrooom, setSelectedBedroom] = useState("All")
 
     const toggleInfo = (roomId) => {
         setShowInfo((prevInfo) => ({
@@ -385,41 +393,58 @@ const Rooms = () => {
         }));
     };
 
+    const dataFiltered = selectedBedrooom == "All" ? data : data.filter((data) => data.bedrooms === selectedBedrooom);
+
     return (
-        <div className="lg:m-24 m-6">
-            <div className=" container mx-auto grid lg:grid-cols-3 md:grid-cols-2 gap-10 grid-cols-1 text-center m-auto">
-                {data.map((room, index) => (
-                    <div key={index} className="border border-slate-300 pb-6">
+        <div className="mt-16 mb-32">
+            <h2>Our Room Types</h2>
+            <div className="flex items-center mb-5">
+                <p className="mb-0">Filter by bedrooms:</p>
+                <select className="bg-main p-1 text-white rounded-md mx-2" value={selectedBedrooom} onChange={(e) => setSelectedBedroom(e.target.value)}>
+                    <option value="All">Select</option>
+                    <option value="1">1 Bedroom</option>
+                    <option value="2">2 Bedrooms</option>
+                    <option value="3">3 Bedrooms</option>
+                </select>
+            </div>
+            <Swiper className="mySwiper" spaceBetween={30} slidesPerView={1} navigation={true} pagination={{clickable: true,}} modules={[Pagination, Navigation]} breakpoints={{
+                640: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+                },
+                1024: {
+                slidesPerView: 3,
+                spaceBetween: 15,
+                },
+            }}>
+                {dataFiltered.map((room, index) => (
+                    <SwiperSlide key={index} className="border border-slate-300 pb-6 rounded-md text-center">
                         {showPlan[room.id] ? (
-                            <div className=" m-6">
                             <>
                                 <Image
-                                    className="w-full object-contain h-60"
+                                    className="w-full object-cover h-72"
                                     src={room.plan}
                                     alt={room.title}
                                     width={500}
                                     height={600}
                                 />
                             </>
-                            </div>
                         ) : (
-                            <div className=" m-6">
                             <>
                                 <Image
-                                    className="w-full object-contain h-60"
+                                    className="w-full object-cover h-72"
                                     src={room.gallery[0]}
                                     alt={room.title}
                                     width={500}
                                     height={600}
                                 />
                             </>
-                            </div>
                         )}
 
-                        <h3 className="font-bold lg:text-4xl text-2xl my-6 mx-3">{room.title}</h3>
+                        <h3 className="lg:text-4xl text-2xl my-6 mx-3">{room.title}</h3>
                         {showInfo[room.id] ? (
                             <div className="flex gap-3 m-auto justify-center">
-                                <table className="flex items-center gap-2 textroom border-collapse">
+                                <table className="flex items-center gap-2 border-collapse">
                                     <tbody>
                                         <tr>
                                             <td className="border border-slate-300 py-1 px-3"></td>
@@ -442,18 +467,18 @@ const Rooms = () => {
                         ) : (
                             <div>
                                 <div className="flex gap-3 m-auto justify-center">
-                                    <div className="flex items-center gap-2 textroom">
-                                        <FaBed /> {room.bedrooms} Bedrooms
-                                    </div>
-                                    <div className="flex items-center gap-1 textroom ">
-                                        <FaBath /> {room.bathroom} Bathrooms
-                                    </div>
+                                    <p className="flex items-center gap-2 textroom">
+                                        <FaBed className="text-[#212529]"/> {room.bedrooms} Bedrooms
+                                    </p>
+                                    <p className="flex items-center gap-1 textroom ">
+                                        <FaBath className="text-[#212529]"/> {room.bathroom} Bathrooms
+                                    </p>
                                 </div>
                                 <div>
-                                    <p className="textroom">{room.size}</p>
-                                    <div className="flex justify-center ">
-                                        <FaLongArrowAltLeft />
-                                        <FaLongArrowAltRight />
+                                    <p className="mb-0">{room.size}</p>
+                                    <div className="flex justify-center gap-1 ">
+                                        <FaLongArrowAltLeft className="text-[#212529]"/>
+                                        <FaLongArrowAltRight className="text-[#212529]"/>
                                     </div>
                                 </div>
                             </div>
@@ -472,9 +497,9 @@ const Rooms = () => {
                                 View Plan
                             </button>
                         </div>
-                    </div>
-                ))}
-            </div>
+                    </SwiperSlide>
+            ))}
+            </Swiper >
         </div>
     );
 };
