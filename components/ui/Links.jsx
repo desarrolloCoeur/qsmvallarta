@@ -24,10 +24,10 @@ const NavLinks = () => {
         //     title: "Garden",
         //     url: "/tower-garden",
         // },
-        // {
-        //     title: "Progress",
-        //     url: "/progress",
-        // }
+        {
+            title: "Progress",
+            url: "/work-in-progress",
+        }
         
     ];
 
@@ -56,9 +56,10 @@ const NavLinks = () => {
                                             Ocean & Canal
                                             <p className="mb-0"><span className="text-sm">Exclusive development with unique taste, offering a private canal.</span></p>
                                         </NavLink>
-                                        <NavLink href="/ocean-and-canal/tower-1-and-2" subtitle>Tower 1 y 2</NavLink>
-                                        <NavLink href="/ocean-and-canal/tower-3" subtitle>Tower 3</NavLink>
+                                        <NavLink href="/ocean-and-canal/tower-1" subtitle>Tower 1</NavLink>
+                                        <NavLink href="/ocean-and-canal/tower-2-and-3" subtitle>Tower 2 y 3</NavLink>
                                         <NavLink href="/ocean-and-canal/work-in-progress" subtitle>Work in Progress</NavLink>
+
                                     </div>
                                     <div className="flex flex-col gap-5">
                                         <NavLink href="/ocean-and-canal-2" title>
