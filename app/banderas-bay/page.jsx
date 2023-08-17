@@ -40,7 +40,7 @@ const page = () => {
 
             <div className='bg-[url(/img/banderas-bay/1_1-Foto-scaled.jpg)] bg-cover h-[50dvh] bg-center text-white w-full mx-auto mt-6 '>
                     <div>
-                        <h1 class="lg:px-24 mx-1 pt-8 text-center">Amenities</h1>
+                        <h1 class="lg:px-24 mx-1 pt-8 text-center text-white">Amenities</h1>
                     </div>
                     <div className='mx-auto text-center text-lg '>
                         <ul className='grid lg:grid-cols-4 grid-cols-1 pb-6 items-center'>

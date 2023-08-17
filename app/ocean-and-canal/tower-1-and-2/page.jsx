@@ -24,7 +24,7 @@ const page = () => {
                 </div>
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 my-8 text-center">MASTER PLAN</h1>
+                        <h1 class="lg:px-24 mx-1 my-8 text-center ">MASTER PLAN</h1>
                     </div>
                     <div className='mx-auto text-center text-lg'>
                         <ul>
@@ -43,7 +43,7 @@ const page = () => {
 
             <div className='bg-[url(/img/tower-1-and-2/slider.jpg)] bg-cover h-[50dvh] bg-center text-white w-full mx-auto mt-6 '>
                     <div>
-                        <h1 class="lg:px-24 mx-1 pt-8 text-center">Why Quinta San Miguel ?</h1>
+                        <h1 class="lg:px-24 mx-1 pt-8 text-center text-white">Why Quinta San Miguel ?</h1>
                     </div>
                     <div className='mx-auto text-center text-lg '>
                         <ul className='grid lg:grid-cols-3 grid-cols-1 pb-6 items-center'>
