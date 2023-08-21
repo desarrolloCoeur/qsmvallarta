@@ -2,8 +2,8 @@ import { FaFacebookSquare, FaInstagram, FaPhone, FaEnvelope } from "react-icons/
 
 const Footer = () => {
     return (
-        <footer className="bg-[#b0a49c]">
-            <div className="p-10 text-white">
+        <footer className="bg-[#b0a49c] text-white mt-20">
+            <div className="p-10">
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                         <div className="mb-5">

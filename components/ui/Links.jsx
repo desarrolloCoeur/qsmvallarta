@@ -29,6 +29,13 @@ const NavLinks = () => {
         //     url: "/tower-garden",
         // },
         {
+<<<<<<< HEAD
+=======
+            title: "Garden",
+            url: "/tower-garden",
+        },
+        {
+>>>>>>> main
             title: "Progress",
             url: "/work-in-progress",
         }
