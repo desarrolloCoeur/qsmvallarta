@@ -9,7 +9,11 @@ const NavLinks = () => {
             url: "/",
         },
         {
-            title: "Ocean & Canal",
+            title: "Ocean & Canal I",
+            url: "#",
+        },
+        {
+            title: "Ocean & Canal II",
             url: "#",
         },
         {
@@ -42,15 +46,15 @@ const NavLinks = () => {
     return (
         <>
             {data.map((menu, index) => {
-            if (menu.title === "Ocean & Canal")  {
+            if (menu.title === "Ocean & Canal I")  {
                 return (
                     <div key={index} className="relative group">
                         <div className="group-hover:mt-5">
-                            <NavLink href="#" multi>Ocean & Canal</NavLink>
-                        </div>   
+                            <NavLink href="#" multi>Ocean & Canal I</NavLink>
+                        </div>
                         <div className="hidden group-hover:block  ">
                             <div  className=" mb-5">
-                                <div className="grid grid-cols-2 absolute left-[-90px] gap-5  w-[650px] p-8 shadow-xl rounded-sm bg-white">
+                                <div className="absolute left-[-90px] gap-5  w-[350px] p-8 shadow-xl rounded-sm bg-white">
                                     <div className="flex flex-col gap-5">
                                         <NavLink href="/ocean-and-canal" title>
                                             Ocean & Canal
@@ -61,9 +65,23 @@ const NavLinks = () => {
                                         <NavLink href="/ocean-and-canal/work-in-progress" subtitle>Work in Progress</NavLink>
 
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )
+                } else if (menu.title === "Ocean & Canal II"){
+                    return(
+                        <div key={index} className="relative group">
+                        <div className="group-hover:mt-5">
+                            <NavLink href="#" multi>Ocean & Canal II</NavLink>
+                        </div>
+                        <div className="hidden group-hover:block  ">
+                            <div  className=" mb-5">
+                                <div className="absolute left-[-90px] gap-5  w-[350px] p-8 shadow-xl rounded-sm bg-white">
                                     <div className="flex flex-col gap-5">
                                         <NavLink href="/ocean-and-canal-2" title>
-                                            Ocean & Canal 2
+                                            Ocean & Canal II
                                             <p className="mb-0"><span className="text-sm">Exclusive development with unique taste, offering a private canal.</span></p>
                                         </NavLink>
                                         <NavLink href="/ocean-and-canal-2/tower-4" subtitle>Tower 4</NavLink>
@@ -74,7 +92,9 @@ const NavLinks = () => {
                             </div>
                         </div>
                     </div>
-                )
+                        
+                    )
+                    
                 } else {
                     return (
                         <div key={index}>

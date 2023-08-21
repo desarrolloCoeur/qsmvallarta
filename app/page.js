@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import ContactUs from '@/components/home/ContacUs'
-import Builds from '@/components/home/Builds'
+import ContactUs from '@/components/ContacUs'
+import Builds from '@/components/Builds'
 
 
 
