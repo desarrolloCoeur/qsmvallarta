@@ -28,13 +28,13 @@ const Footer = () => {
                             </h5>
                         </div>
                     </div>
+                    <div className="w-full">
+                        <p className="text-center font-light pt-6 text-white">
+                            ©All Rights Reserved. Quinta San Miguel 2023 |
+                            Powered by CoeurMKT
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div className="w-full">
-                <p className="text-center font-light pt-6 text-white mb-0">
-                    ©All Rights Reserved. Quinta San Miguel 2023 |
-                    Powered by CoeurMKT
-                </p>
             </div>
         </footer>
     );
