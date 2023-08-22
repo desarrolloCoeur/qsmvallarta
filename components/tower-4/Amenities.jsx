@@ -34,7 +34,7 @@ const Amenities = () => {
                             </li>
                             <li className="flex gap-3 items-center mb-3 justify-center flex-col">
                                 <FaTableTennis className="text-4xl text-[#212529]"/>
-                                <p>Padel court</p>
+                                <p>Tennis court</p>
                             </li>
                             <li className="flex gap-3 items-center mb-3 justify-center flex-col">
                                 <FaSun className="text-4xl text-[#212529]"/>
