@@ -10,7 +10,7 @@ const page = () => {
             id: "1",
             title: "Condo Buzo",
             bedrooms: "2",
-            bathroom: "4",
+            bathroom: "2",
             size: "94.45 m2 - 1,016.65 Ft",
             gallery: [
                 "/img/banderas-bay/nuevo-bucerias.png",
@@ -27,8 +27,8 @@ const page = () => {
         {
             id: "2",
             title: "Condo Rivera",
-            bedrooms: "3",
-            bathroom: "3.5",
+            bedrooms: "2",
+            bathroom: "2",
             size: "104.35 m2 - 1,123.21 Ft",
             gallery: [
                 "/img/banderas-bay/nuevo-bucerias-2.png",
