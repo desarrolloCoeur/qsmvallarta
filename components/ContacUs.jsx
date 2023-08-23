@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContacUs = () => {
   return (
-    <div className="lg:mx-32 mx-6 text-lg pt-12">
+    <div className="lg:mx-32 mx-6 text-lg">
         <div className="flex justify-center">
             <div className="flex">
                 <h3 className="text-6xl font-light mb-10">Contact</h3>

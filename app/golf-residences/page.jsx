@@ -77,7 +77,7 @@ const page = () => {
                         </ul>
                     </div>
                 </div>
-                <RoomSwiper roomData={data} title="Our Apartment Types - SOLD OUT" />
+                <RoomSwiper roomData={data} title="Our Apartment Types" />
             </div>
 
 

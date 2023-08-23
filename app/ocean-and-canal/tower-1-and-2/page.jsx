@@ -133,12 +133,12 @@ const page = () => {
                         </ul>
                     </div>
                 </div>
-                <RoomSwiper roomData={data} title="Our Room Types - SOLD OUT" />
+                <RoomSwiper roomData={data} title="Our Room Types"/>
             </div>
+            
 
 
-
-            <div className='h-[29rem] text-white w-full  flex justify-center flex-col relative ' style={{ background: "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(/img/tower-1-and-2/slider.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}>
+            <div className='h-[29rem] text-white w-full  flex justify-center flex-col relative ' style={{background: "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(/img/tower-1-and-2/slider.jpg)", backgroundSize: "cover", backgroundPosition: "center"}}>
                 <div>
                     <h1 class="lg:px-24 mx-1 pt-8 text-center text-white">Why Quinta San Miguel ?</h1>
                 </div>

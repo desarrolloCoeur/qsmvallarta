@@ -109,13 +109,10 @@ const page = () => {
             interiorsqf: "570.5",
             terracem: "6",
             terracesqf: "64.5",
-        }
-    ];
-
-    const dataPenthouses = [
+        },
         {
             id: "7",
-            title: "Room Type - R PH CORNER",
+            title: "Room Type - R",
             bedrooms: "3",
             bathroom: "3 and 2 Half",
             size: "374.5 m2 – 4031 ft2",
@@ -131,7 +128,7 @@ const page = () => {
         },
         {
             id: "8",
-            title: "Room Type - S PH CENTRAL",
+            title: "Room Type - S",
             bedrooms: "3",
             bathroom: "3.5",
             size: "184 m2 – 1,980.6 ft2",
@@ -147,7 +144,7 @@ const page = () => {
         },
         {
             id: "9",
-            title: "Room Type - S PH ROOF",
+            title: "Room Type - S WITH ROOF",
             bedrooms: "3",
             bathroom: "3.5",
             size: "244 m2 – 2,626.4 ft2",
@@ -161,10 +158,7 @@ const page = () => {
             terracem: "72",
             terracesqf: "775",
         }
-    ]
-    
-
-
+    ];
     return (
         <>
             <BuildingHero background="/img/tower-4/tower4.webp" title="Tower 5"/>
@@ -212,7 +206,6 @@ const page = () => {
                 </div> 
                 <KeyLocations />
                 <RoomSwiper roomData={data} title="Our Room Types"/>
-                <RoomSwiper roomData={dataPenthouses} title="Our Penthouses"/>
                 <ContacUs/>
             </div>
 
