@@ -143,7 +143,7 @@ const page = () => {
                         </ul>
                     </div>
                 </div>
-                <RoomSwiper roomData={data} title="Our Room Types"/>
+                <RoomSwiper roomData={data} title="Our Room Types - SOLD OUT"/>
             </div>
             
 

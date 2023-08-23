@@ -24,10 +24,10 @@ const NavLinks = () => {
             title: "Banderas Bay",
             url: "/banderas-bay",
         },
-        // {
-        //     title: "Garden",
-        //     url: "/tower-garden",
-        // },
+        {
+            title: "Garden",
+            url: "/tower-garden",
+        },
         {
             title: "Progress",
             url: "/work-in-progress",
@@ -57,7 +57,7 @@ const NavLinks = () => {
                                 <div className="absolute left-[-90px] gap-5  w-[350px] p-8 shadow-xl rounded-sm bg-white">
                                     <div className="flex flex-col gap-5">
                                         <NavLink href="/ocean-and-canal" title>
-                                            Ocean & Canal
+                                            Ocean & Canal - SOULD OUT
                                             <p className="mb-0"><span className="text-sm">Exclusive development with unique taste, offering a private canal.</span></p>
                                         </NavLink>
                                         <NavLink href="/ocean-and-canal/tower-1-and-2" subtitle>Tower 1 y 2</NavLink>
