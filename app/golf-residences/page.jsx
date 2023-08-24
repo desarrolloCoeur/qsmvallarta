@@ -51,7 +51,7 @@ const page = () => {
             <div className='container w-11/12 mx-auto mt-16'> 
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 mb-8 text-center">COMBINING A HIGH LEVEL OF COMFORT WITH A TOUCH OF INNOVATION</h1>
+                        <h1 class="lg:px-24 mx-1 mb-8 text-5xl text-center">COMBINING A HIGH LEVEL OF COMFORT WITH A TOUCH OF INNOVATION</h1>
                     </div>
                     <div className=' mx-1 text-center'>
                         <p>Natural light will pleasantly bathe the interiors, bringing you a wonderful feeling of spaciousness and freedom.</p>
