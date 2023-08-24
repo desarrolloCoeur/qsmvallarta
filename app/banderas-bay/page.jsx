@@ -81,7 +81,7 @@ const page = () => {
                 </div>
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 my-8 text-center ">MASTER PLAN</h1>
+                        <h1 class="lg:px-24 mx-1 my-8 text-5xl text-center ">MASTER PLAN</h1>
                     </div>
                     <div className='mx-auto text-center text-lg'>
                         <ul>

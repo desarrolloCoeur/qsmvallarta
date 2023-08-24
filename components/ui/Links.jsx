@@ -95,6 +95,28 @@ const NavLinks = () => {
                         
                     )
                     
+                } else if (menu.title === "Golf Residences"){
+                    return(
+                        <div key={index} className="relative group">
+                        <div className="group-hover:mt-5">
+                            <NavLink href="/golf-residences">Golf Residences</NavLink>
+                        </div>
+                        <div className="hidden group-hover:block  ">
+                            <div  className=" mb-5">
+                                <div className="absolute left-[-10px] gap-5  w-[180px] p-6 shadow-xl rounded-sm bg-white">
+                                    <div className="flex flex-col gap-5">
+                                        <NavLink href="/golf-residences" title>
+                                            SOLD OUT
+                                        </NavLink>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    )
+                    
                 } else {
                     return (
                         <div key={index}>
