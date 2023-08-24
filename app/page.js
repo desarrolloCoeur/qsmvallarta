@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <div>
         <div>
-          <Image src="/img/2-1-scaled.jpg" className='h-[100dvh] w-full object-cover'  height={1920} width={1080} alt='Imagen de Quinta San Miguel'/>
+          <Image src="/img/11.webp" className='h-[100dvh] w-full object-cover'  height={1920} width={1080} alt='Imagen de Quinta San Miguel'/>
         </div>
 
         <div className="container w-11/12 mx-auto max-w-[900px]  py-20">
