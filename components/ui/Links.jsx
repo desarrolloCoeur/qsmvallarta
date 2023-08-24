@@ -57,7 +57,7 @@ const NavLinks = () => {
                                 <div className="absolute left-[-90px] gap-5  w-[350px] p-8 shadow-xl rounded-sm bg-white">
                                     <div className="flex flex-col gap-5">
                                         <NavLink href="/ocean-and-canal" title>
-                                            Ocean & Canal - SOULD OUT
+                                            Ocean & Canal - SOLD OUT
                                             <p className="mb-0"><span className="text-sm">Exclusive development with unique taste, offering a private canal.</span></p>
                                         </NavLink>
                                         <NavLink href="/ocean-and-canal/tower-1-and-2" subtitle>Tower 1 y 2</NavLink>
@@ -87,6 +87,28 @@ const NavLinks = () => {
                                         <NavLink href="/ocean-and-canal-2/tower-4" subtitle>Tower 4</NavLink>
                                         <NavLink href="/ocean-and-canal-2/tower-5" subtitle>Tower 5</NavLink>
                                         <NavLink href="/ocean-and-canal-2/work-in-progress" subtitle>Work in Progress</NavLink>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    )
+                    
+                } else if (menu.title === "Golf Residences"){
+                    return(
+                        <div key={index} className="relative group">
+                        <div className="group-hover:mt-5">
+                            <NavLink href="/golf-residences">Golf Residences</NavLink>
+                        </div>
+                        <div className="hidden group-hover:block  ">
+                            <div  className=" mb-5">
+                                <div className="absolute left-[-10px] gap-5  w-[180px] p-6 shadow-xl rounded-sm bg-white">
+                                    <div className="flex flex-col gap-5">
+                                        <NavLink href="/golf-residences" title>
+                                            SOLD OUT
+                                        </NavLink>
+                                        
                                     </div>
                                 </div>
                             </div>
