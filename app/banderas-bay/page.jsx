@@ -64,13 +64,14 @@ const page = () => {
     ];
     return (
         <>
-            <BuildingHero background="/img/banderas-bay/header.jpg" title="Banderas Bay"/>
+            <BuildingHero background="/img/banderas-bay/header.jpg"/>
 
 
             <div className='container w-11/12 mx-auto mt-16'>
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 mb-8 text-center">Your new appartment in Quinta Banderas Bay</h1>
+                        <h1 class="text-5xl lg:px-24 mx-1 mb-8 text-center">A GREAT DEVELOPMENT FOR THOSE THAT LOVE A BEACH TOWN</h1>
+                        {/* <h1 class="lg:px-24 mx-1 mb-8 text-center">Your new appartment in Quinta Banderas Bay</h1> */}
 
                     </div>
                     <div className=' mx-1 text-justify'>

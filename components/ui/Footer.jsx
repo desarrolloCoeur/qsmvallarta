@@ -13,7 +13,7 @@ const Footer = () => {
                                 <FaPhone/> PVR: (322) 373-5781
                             </h5>
                             <h5 className="flex items-center justify-start gap-2">
-                                <FaEnvelope/> qsmvallarta@gmail.com
+                                <FaEnvelope/> ventas@qsmvallarta.com
                             </h5>
                         </div>
                         <div></div>
