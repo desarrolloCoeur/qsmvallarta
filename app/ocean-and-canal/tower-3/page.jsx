@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import BuildingHero from '@/components/ui/BuildingHero'
 import ContacUs from '@/components/ContacUs'
 import RoomSwiper from '@/components/ui/RoomSwiper'
 
@@ -113,14 +114,12 @@ const page = () => {
 
     return (
         <>
-            <div>
-                <Image src="/img/tower-3/tower-3.jpg" className=' w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' />
-            </div>
+            <BuildingHero background="/img/1.webp" title="Tower 3 "/>
 
             <div className='container w-11/12 mx-auto mt-16'>
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 mb-8 text-center">IN THE EXCLUSIVE ZONE OF NUEVO VALLARTA</h1>
+                        <h1 class="lg:px-24 mx-1 text-5xl mb-8 text-center">IN THE EXCLUSIVE ZONE OF NUEVO VALLARTA</h1>
                     </div>
                     <div className=' mx-1 text-justify'>
                         <p>Quinta San Miguel Ocean & Canal is an exclusive development with unique taste, offering a private canal with slips area surrounded by luxury resorts, the finest restaurants and commercial centers. It is located in the most secure zone with the highest capital gain in Riviera Nayarit.</p>
@@ -130,7 +129,7 @@ const page = () => {
                 </div>
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 my-8 text-center ">MASTER PLAN</h1>
+                        <h1 class="lg:px-24 mx-1 my-8 text-5xl text-center ">MASTER PLAN</h1>
                     </div>
                     <div className='mx-auto text-center text-lg'>
                         <ul>
