@@ -4,6 +4,7 @@ import { Inter,Amiri, Noto_Sans } from 'next/font/google'
  
 
 import './globals.css';
+import Whatsapp from '@/components/Whatsapp.jsx';
 
 const inter = Inter({ subsets: ['latin'],  })
 const amiri = Amiri({subsets : ['latin'], weight : ['400'], variable : '--font-amiri'})
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Whatsapp />
       </body>
     </html>
   )
