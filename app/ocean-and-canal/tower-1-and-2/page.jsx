@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import BuildingHero from '@/components/ui/BuildingHero'
 import ContacUs from '@/components/ContacUs'
 import RoomSwiper from '@/components/ui/RoomSwiper'
 
@@ -103,9 +104,8 @@ const page = () => {
 
     return (
         <>
-            <div>
-                <Image src="/img/tower-1-and-2/TORRE-1Y2-1300X400PX.jpg" className=' w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' />
-            </div>
+            <BuildingHero background="/img/3.webp" title="Tower 1 & 2 "/>
+
 
             <div className='container w-11/12 mx-auto mt-16'>
                 <div>
