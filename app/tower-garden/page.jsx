@@ -191,8 +191,8 @@ const page = () => {
       <BuildingHero background="/img/garden2.webp" title="Garden"/>
       <div className='container w-11/12 mx-auto mt-16'> 
         <div>
-            <h1 className="text-center">
-              A NEW CHAPTER OF QUINTA SAN MIGUEL DEVELOPMENT.
+            <h1 className="text-center text-5xl">
+              INCREDIBLE VIEWS, COMMODITY AND THE BEST AMENITIES.
             </h1>
             <div className="mx-auto flex justify-center flex-col md:flex-row gap-5 mt-16">
                 <div className="text-center  md:w-1/2 max-w-[500px] mx-auto">
