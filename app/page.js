@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <div>
         <div>
-          <Image src="/img/11.webp" className='h-[100dvh] w-full object-cover'  height={1920} width={1080} alt='Imagen de Quinta San Miguel'/>
+          <Image src="/img/11.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' />
         </div>
 
         <div className="container w-11/12 mx-auto max-w-[900px]  py-20">
@@ -23,6 +23,127 @@ export default function Home() {
         </div>
 
         <Builds />
+
+
+        <section className='container w-11/12 mx-auto my-20'>
+          <div className='grid lg:grid-cols-2 grid-cols-1'>
+            <div>
+              <div>
+                <Image src="/img/logo-grupo-amg.webp" className='mx-auto' height={100} width={200} />
+              </div>
+              <div className='text-align-custom text-center my-6 lg:px-20 px-6'>
+                <p className='tracking-wide text-sm font-normal pb-3 uppercase'>Compromiso | Calidad | Ecología | Vanguardia</p>
+                <p className='font-thin text-base'><b className='font-bold'>AMGM Constructores </b>es la empresa con más experiencia en México dedicada a compra-venta y transformación de contenedores en espacios ecológicos y modernos, respaldada por sus 15 años de funcionamiento. <br /> <br />
+                  Al día de hoy hemos crecido y nos hemos
+                  consolidado como una familia inmobiliaria
+                  solida, respaldada por la construcción de mas
+                  de 15 casas, un hotel, oficinas, y complejos
+                  habitacionales con torres departamentales.</p>
+              </div>
+            </div>
+            <div>
+              <Image src="/img/grupo-amg.webp" height={1920} width={1080} />
+            </div>
+          </div>
+        </section>
+
+
+
+        <section className='container w-11/12 mx-auto my-20'>
+          <h2 className='pb-6 uppercase'>Galeria de construcciones</h2>
+          <div className='grid lg:grid-cols-4 grid-cols-1 gap-6'>
+            <div className="h-72 bg-[url('/img/grupo-amg/1.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA SAN MIGUEL GOLF</h4>
+                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO</p>
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/2.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASA MARINA</h4>
+                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO <br/> EL TIGRE GOLF COURSE</p>
+
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/3.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASA REGINA</h4>
+                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO <br/> EL TIGRE GOLF COURSE</p>
+
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/4.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASA LISBOA</h4>
+                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO <br/> EL TIGRE GOLF COURSE</p>
+
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/5.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">OFICINAS PARADISE VILLAGE</h4>
+                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO <br/> EL TIGRE GOLF COURSE</p>
+
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/6.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASA 48</h4>
+                <p className='text-white font-thin uppercase text-xs '></p>
+
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/7.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">CONTAINER INN</h4>
+                <p className='text-white font-thin uppercase text-xs '>PUERTO VALLARTA, MEXICO</p>
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/8.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA SAN MIGUEL OCEAN & CANAL</h4>
+                <p className='text-white font-thin uppercase text-xs '>PASEO DE LOS COCOTEROS, NUEVO VALLARTA, NAYARIT</p>
+
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/9.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA BANDERAS BAY</h4>
+                <p className='text-white font-thin uppercase text-xs '>PASEO DE LOS COCOTEROS, NUEVO VALLARTA, NAYARIT</p>
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/10.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA SAN MIGUEL GARDEN</h4>
+                <p className='text-white font-thin uppercase text-xs '>PASEO DE LAS MORAS, NUEVO VALLARTA, NAYARIT</p>
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/11.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA SAN MIGUEL OCEAN AND CANAL II</h4>
+                <p className='text-white font-thin uppercase text-xs '>PASEO DE LOS COCOTEROS, NUEVO VALLARTA, NAYARIT</p>
+              </div>
+            </div>
+            <div className="h-72 bg-[url('/img/grupo-amg/12.webp')] bg-cover relative rounded-md w-full">
+            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
+              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASAS VISTA LAGOS</h4>
+                <p className='text-white font-thin uppercase text-xs '>VISTA LAGOS, EL TIGRE, NUEVO VALLARTA</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <ContactUs />
 
