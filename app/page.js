@@ -1,5 +1,16 @@
+'use client'
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+
+// import required modules
+import { Navigation } from 'swiper/modules';
 import Image from 'next/image'
-import React from 'react'
 import ContactUs from '@/components/ContacUs'
 import Builds from '@/components/Builds'
 
@@ -9,9 +20,11 @@ export default function Home() {
   return (
     <main>
       <div>
-        <div>
-          <Image src="/img/11.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' />
-        </div>
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <SwiperSlide><Image src="/img/11.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
+          <SwiperSlide><Image src="/img/7.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
+          <SwiperSlide><Image src="/img/9.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
+        </Swiper>
 
         <div className="container w-11/12 mx-auto max-w-[900px]  py-20">
           <h1 className="text-center">Quinta San Miguel <br></br>Real Estate Group</h1>

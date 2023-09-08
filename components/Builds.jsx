@@ -32,6 +32,15 @@ const Builds = () => {
             thumb : '/img/OLLR-1-1-scaled.jpg',
             href : '/banderas-bay'
         },
+        {
+            title:'Garden',
+            sold: '',
+            img:'/img/tower-garden/VISTA-FRENTE-S.webp',
+            thumb:'/img/tower-garden/VISTA-FRENTE-S.webp',
+            href:'/tower-garden',
+
+
+        }
     ]
 
   return (
