@@ -29,11 +29,11 @@ export default function Home() {
           <div className='grid lg:grid-cols-2 grid-cols-1'>
             <div>
               <div>
-                <Image src="/img/logo-grupo-amg.webp" className='mx-auto' height={100} width={200} />
+                <Image src="/img/grupo-amg/logo-grupo-amg2.png" className='mx-auto' height={50} width={200} />
               </div>
               <div className='text-align-custom text-center my-6 lg:px-20 px-6'>
                 <p className='tracking-wide text-sm font-normal pb-3 uppercase'>Compromiso | Calidad | Ecología | Vanguardia</p>
-                <p className='font-thin text-base'><b className='font-bold'>AMGM Constructores </b>es la empresa con más experiencia en México dedicada a compra-venta y transformación de contenedores en espacios ecológicos y modernos, respaldada por sus 15 años de funcionamiento. <br /> <br />
+                <p className='font-thin text-base'><b className='font-semibold'>AMGM Constructores </b>es la empresa con más experiencia en México dedicada a compra-venta y transformación de contenedores en espacios ecológicos y modernos, respaldada por sus 15 años de funcionamiento. <br /> <br />
                   Al día de hoy hemos crecido y nos hemos
                   consolidado como una familia inmobiliaria
                   solida, respaldada por la construcción de mas

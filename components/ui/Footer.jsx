@@ -9,23 +9,31 @@ const Footer = () => {
                         <div className="mb-5">
                             <h4>Contact Us</h4>
                             <div className="bg-white h-px w-full"></div>
-                            <h5 className="flex items-center justify-start gap-2">
-                                <FaPhone/> PVR: (322) 373-5781
-                            </h5>
-                            <h5 className="flex items-center justify-start gap-2">
-                                <FaEnvelope/> ventas@qsmvallarta.com
-                            </h5>
+                            <a href="tel:+523223735781">
+                                <h5 className="flex items-center justify-start gap-2">
+                                    <FaPhone /> PVR: (322) 373-5781
+                                </h5>
+                            </a>
+                            <a href="mailto:ventas@qsmvallarta.com">
+                                <h5 className="flex items-center justify-start gap-2">
+                                    <FaEnvelope /> ventas@qsmvallarta.com
+                                </h5>
+                            </a>
                         </div>
                         <div></div>
                         <div className="mb-5 ">
                             <h4>Follow Us</h4>
                             <div className="bg-white h-px w-full"></div>
-                            <h5 className="flex items-center justify-start gap-2 ">
-                                <FaFacebookSquare/> Facebook
-                            </h5>
-                            <h5 className="flex items-center justify-start gap-2">
-                                <FaInstagram/> Instagram
-                            </h5>
+                            <a href="https://www.facebook.com/quintasanmiguelpv" target="_blank">
+                                <h5 className="flex items-center justify-start gap-2 ">
+                                    <FaFacebookSquare /> Facebook
+                                </h5>
+                            </a>
+                            <a href="https://www.instagram.com/qsmvallarta/" target="_blank">
+                                <h5 className="flex items-center justify-start gap-2">
+                                    <FaInstagram /> Instagram
+                                </h5>
+                            </a>
                         </div>
                     </div>
                     <div className="w-full">

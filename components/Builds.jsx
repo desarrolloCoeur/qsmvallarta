@@ -4,12 +4,14 @@ const Builds = () => {
     const data = [
         {
             title: 'Ocean & Canal I',
+            sold: 'Sold Out',
             img : '/img/home-ocean-canal.jpg',
             thumb : '/img/home-ocean-canal.jpg',
             href : '/ocean-and-canal'
         },
         {
             title: 'Ocean & Canal II',
+            sold: '',
             img : '/img/5.webp',
             thumb : '/img/5.webp',
             href : '/ocean-and-canal-2'
@@ -17,6 +19,7 @@ const Builds = () => {
         },
         {
             title: 'Golf Residences',
+            sold: 'Sold Out',
             img : '/img/home-golf.jpg',
             thumb : '/img/home-golf.jpg',
             href : '/golf-residences'
@@ -24,6 +27,7 @@ const Builds = () => {
         },
         {
             title: 'Banderas Bay',
+            sold: '',
             img : '/img/OLLR-1-1-scaled.jpg',
             thumb : '/img/OLLR-1-1-scaled.jpg',
             href : '/banderas-bay'
@@ -36,7 +40,9 @@ const Builds = () => {
         {
             data.map((t,i) => {
                 return (
-                    <BuildingCard background={t.thumb} title={t.title} key={i} href={t.href}/>
+                    <>
+                    <BuildingCard background={t.thumb} title={t.title} sold={t.sold} key={i} href={t.href}/>
+                    </>
                 )
             })
         }
