@@ -104,7 +104,7 @@ const page = () => {
 
     return (
         <>
-            <BuildingHero background="/img/3.webp" title="Tower 1 & 2 "/>
+            <BuildingHero background="/img/ocean-and-canal-hero.jpg" title="Tower 1 & 2 "/>
 
 
             <div className='container w-11/12 mx-auto mt-16'>

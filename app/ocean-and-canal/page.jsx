@@ -11,7 +11,7 @@ const page = () => {
             <div class="lg:mx-24 mx-6 lg:pt-12 pt-6 mb-14">
                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-6 ">
                     <BuildingCard background="/img/ocean-and-canal-hero.jpg" title="Tower 1 & 2" href="/ocean-and-canal/tower-1-and-2"/>                    
-                    <BuildingCard background="/img/7.jpg" title="Tower 3" href="/ocean-and-canal/tower-3"/>                    
+                    <BuildingCard background="/img/1.webp" title="Tower 3" href="/ocean-and-canal/tower-3"/>                    
                 </div>
             </div>
         </>

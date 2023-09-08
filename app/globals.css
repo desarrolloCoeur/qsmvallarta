@@ -62,17 +62,30 @@
 
 
 .swiper-button-prev, .swiper-button-next{
-    top: 107% !important;
     color:white !important;
     background-color: #b0a49d;
     border-radius: 5px;
     z-index: 11 !important;
 }
 
+.card .swiper-button-prev,.card .swiper-button-next{
+    top: 107% !important;
+
+}
+
+.card .swiper-button-next{
+    left: 80px !important;
+}
+
+
+
 .swiper-button-prev:after, .swiper-button-next:after {
     font-size: 25px !important;
 }
 
-.swiper-button-next{
-    left: 80px !important;
+
+
+
+.hidden-slide{
+    display: none !important;
 }

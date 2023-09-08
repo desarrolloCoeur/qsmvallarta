@@ -53,7 +53,7 @@ const page = () => {
             id: "3",
             title: "Room Type - C",
             bedrooms: "3",
-            bathroom: "3",
+            bathroom: "3.5",
             size: "219 m2 – 2,357 ft2",
             gallery: [
                 // "/img/tower-4/roomC.webp",
@@ -88,7 +88,7 @@ const page = () => {
             title: "Room Type - E",
             bedrooms: "3",
             bathroom: "3",
-            size: "216 m2 – 2,325 ft2",
+            size: "223 m2 – 2,325 ft2",
             gallery: [
                 // "/img/tower-4/roomE.webp",
                 "/img/tower-4/roomE2.webp",
@@ -105,7 +105,7 @@ const page = () => {
             title: "Room Type - F",
             bedrooms: "3",
             bathroom: "3",
-            size: "267 m2 – 2,874 ft2",
+            size: "266 m2 – 2,874 ft2",
             gallery: [
                 // "/img/tower-4/roomF.webp",
                 "/img/tower-4/roomF2.webp",
@@ -380,7 +380,7 @@ const page = () => {
 
     return (
         <>
-            <BuildingHero background="/img/tower-4/tower4.webp" title="Tower 4" />
+            <BuildingHero background="/img/tower-4/tower4-2.webp" title="Tower 4" />
             <div className='container w-11/12 mx-auto mt-16'>
                 <div>
                     <h1 className="text-center text-5xl">

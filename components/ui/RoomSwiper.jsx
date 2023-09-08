@@ -30,7 +30,7 @@ const RoomSwiper = ({ roomData, title }) => {
                 </select>
             </div>
             <Swiper
-                className="mySwiper"
+                className="mySwiper card"
                 spaceBetween={30}
                 slidesPerView={1}
                 navigation={true}
