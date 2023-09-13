@@ -9,10 +9,73 @@ import 'swiper/css/navigation';
 
 
 // import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import Image from 'next/image'
 import ContactUs from '@/components/ContacUs'
 import Builds from '@/components/Builds'
+
+const data = [
+  {
+    title: "Quinta San Miguel Golf",
+    location : "Nuevo Vallarta, Riviera Nayarit",
+    img : "/img/grupo-amg/1.webp"
+  },
+  {
+    title: "Casa Marina",
+    location : "El Tigre Golf Course, Riviera Nayarit",
+    img : "/img/grupo-amg/2.webp"
+  },
+  {
+    title: "Casa Regina",
+    location : "El Tigre Golf Course, Riviera Nayarit",
+    img : "/img/grupo-amg/3.webp"
+  },
+  {
+    title: "Casa Lisboa",
+    location : "El Tigre Golf Course, Riviera Nayarit",
+    img : "/img/grupo-amg/4.webp"
+  },
+  {
+    title: "Oficinas Paradise Village",
+    location : "El Tigre Golf Course, Riviera Nayarit",
+    img : "/img/grupo-amg/5.webp"
+  },
+  {
+    title: "Casa 48",
+    location : "El Tigre Golf Course, Riviera Nayarit",
+    img : "/img/grupo-amg/6.webp"
+  },
+  {
+    title: "Container Inn",
+    location : "Puerto Vallarta, México",
+    img : "/img/grupo-amg/7.webp"
+  },
+  {
+    title: "Quinta San Miguen Ocean and Canal",
+    location : "Paseo de los Cocoteros, Nuevo Vallarta, Nayarit",
+    img : "/img/grupo-amg/8.webp"
+  },
+  {
+    title: "Quinta Banderas Bay",
+    location : "Paseo de los Cocoteros, Nuevo Vallarta, Nayarit",
+    img : "/img/grupo-amg/9.webp"
+  },
+  {
+    title: "Quinta San Miguel Garden",
+    location : "Paseo de las Moras, Nuevo Vallarta, Nayarit",
+    img : "/img/grupo-amg/10.webp"
+  },
+  {
+    title: "Quinta San Miguel Ocean and Canal II",
+    location : "Paseo de los Cocoteros, Nuevo Vallarta, Nayarit",
+    img : "/img/grupo-amg/11.webp"
+  },
+  {
+    title: "Casan Vistas Lagos",
+    location : "Vista Lagos, El Tigre, Nuevo Nyarit",
+    img : "/img/grupo-amg/12.webp"
+  }
+]
 
 
 
@@ -20,7 +83,9 @@ export default function Home() {
   return (
     <main>
       <div>
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <Swiper navigation={true} modules={[Autoplay, Navigation]} autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,}} className="mySwiper">
           <SwiperSlide><Image src="/img/11.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
           <SwiperSlide><Image src="/img/7.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
           <SwiperSlide><Image src="/img/9.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
@@ -42,7 +107,7 @@ export default function Home() {
           <div className='grid lg:grid-cols-2 grid-cols-1'>
             <div>
               <div>
-                <Image src="/img/grupo-amg/logo-grupo-amg2.png" className='mx-auto' height={50} width={200} />
+                <Image src="/img/amgm-constructores.png" className='mx-auto' height={50} width={200} alt='AMGM Constructores'/>
               </div>
               <div className='text-align-custom text-center my-6 lg:px-20 px-6'>
                 <p className='tracking-wide text-sm font-normal pb-3 uppercase'>Compromiso | Calidad | Ecología | Vanguardia</p>
@@ -55,7 +120,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <Image src="/img/grupo-amg.webp" height={1920} width={1080} />
+              <Image src="/img/grupo-amg.webp" height={1920} width={1080} alt='AMGM Constructores'/>
             </div>
           </div>
         </section>
@@ -64,98 +129,35 @@ export default function Home() {
 
         <section className='container w-11/12 mx-auto my-20'>
           <h2 className='pb-6 uppercase'>Galeria de construcciones</h2>
-          <div className='grid lg:grid-cols-4 grid-cols-1 gap-6'>
-            <div className="h-72 bg-[url('/img/grupo-amg/1.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA SAN MIGUEL GOLF</h4>
-                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO</p>
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/2.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASA MARINA</h4>
-                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO <br/> EL TIGRE GOLF COURSE</p>
+          <Swiper navigation={true} modules={[Navigation]} className="mySwiper" breakpoints={{
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
+            
+          }}>
 
+            {data.map((location,index) => (
+              <SwiperSlide key={index}  >
+              <div className={`h-72 relative rounded-md w-full`} style={{backgroundImage: `url(${location.img})`, backgroundSize: 'cover', backgroundPosition:'center'}}>
+              <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-t"></div>
+                <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
+                  <h4 className="text-xl uppercase text-white font-extrabold text-left">{location.title}</h4>
+                  <p className='text-white font-thin uppercase text-xs '>{location.location}</p>
+                </div>
               </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/3.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASA REGINA</h4>
-                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO <br/> EL TIGRE GOLF COURSE</p>
+              </SwiperSlide>
+            ))}
 
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/4.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASA LISBOA</h4>
-                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO <br/> EL TIGRE GOLF COURSE</p>
-
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/5.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">OFICINAS PARADISE VILLAGE</h4>
-                <p className='text-white font-thin uppercase text-xs '>NUEVO VALLATA, RIVIERA NAYARIT MEXICO <br/> EL TIGRE GOLF COURSE</p>
-
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/6.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASA 48</h4>
-                <p className='text-white font-thin uppercase text-xs '></p>
-
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/7.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">CONTAINER INN</h4>
-                <p className='text-white font-thin uppercase text-xs '>PUERTO VALLARTA, MEXICO</p>
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/8.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA SAN MIGUEL OCEAN & CANAL</h4>
-                <p className='text-white font-thin uppercase text-xs '>PASEO DE LOS COCOTEROS, NUEVO VALLARTA, NAYARIT</p>
-
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/9.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA BANDERAS BAY</h4>
-                <p className='text-white font-thin uppercase text-xs '>PASEO DE LOS COCOTEROS, NUEVO VALLARTA, NAYARIT</p>
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/10.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA SAN MIGUEL GARDEN</h4>
-                <p className='text-white font-thin uppercase text-xs '>PASEO DE LAS MORAS, NUEVO VALLARTA, NAYARIT</p>
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/11.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">QUINTA SAN MIGUEL OCEAN AND CANAL II</h4>
-                <p className='text-white font-thin uppercase text-xs '>PASEO DE LOS COCOTEROS, NUEVO VALLARTA, NAYARIT</p>
-              </div>
-            </div>
-            <div className="h-72 bg-[url('/img/grupo-amg/12.webp')] bg-cover relative rounded-md w-full">
-            <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-b bg-gradient-to-t"></div>
-              <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
-                <h4 className="text-xl uppercase text-white font-extrabold text-left">CASAS VISTA LAGOS</h4>
-                <p className='text-white font-thin uppercase text-xs '>VISTA LAGOS, EL TIGRE, NUEVO VALLARTA</p>
-              </div>
-            </div>
-          </div>
+          </Swiper>
         </section>
 
         <ContactUs />
