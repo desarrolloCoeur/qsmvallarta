@@ -16,7 +16,7 @@ import RoomSwiper from '@/components/ui/RoomSwiper'
 
 
 const page = () => {
-    const data = [
+    const dataRooms = [
         {
             id: "1",
             title: "Room Type - A",
@@ -27,10 +27,10 @@ const page = () => {
                 "/img/tower-garden/TERMINACION-1-FINAL-A.webp",
             ],
             plan: "/img/tower-garden/PLANTA-TERMINACION-1-A.webp",
-            interiorm: "0",
-            interiorsqf: "0",
-            terracem: "0",
-            terracesqf: "0",
+            interiorm: "142",
+            interiorsqf: "1528.48",
+            terracem: "30",
+            terracesqf: "322.91",
         },
         {
             id: "2",
@@ -42,10 +42,10 @@ const page = () => {
                 "/img/tower-garden/roomB-3.webp",
             ],
             plan: "/img/tower-garden/roomB-2.webp",
-            interiorm: "0",
-            interiorsqf: "0",
-            terracem: "0",
-            terracesqf: "0",
+            interiorm: "94",
+            interiorsqf: "1011.81",
+            terracem: "14",
+            terracesqf: "150.69",
         },
         {
             id: "3",
@@ -57,40 +57,10 @@ const page = () => {
                 "/img/tower-garden/TERMINACION-3-C.webp"
             ],
             plan: "/img/tower-garden/PLANTA-TERMINACION-3-C.webp",
-            interiorm: "0",
-            interiorsqf: "0",
-            terracem: "0",
-            terracesqf: "0",
-        },
-        {
-            id: "4",
-            title: "Room Type - D",
-            bedrooms: "3",
-            bathroom: "3.5",
-            size: "242.2 m2 – 2,607 ft2",
-            gallery: [
-                "/img/tower-garden/roomD-5.webp",
-            ],
-            plan: "/img/tower-garden/roomD-4.webp",
-            interiorm: "0",
-            interiorsqf: "0",
-            terracem: "0",
-            terracesqf: "0",
-        },
-        {
-            id: "5",
-            title: "Room Type - E",
-            bedrooms: "3",
-            bathroom: "3.5",
-            size: "225 m2 – 2,422 ft2",
-            gallery: [
-                "/img/tower-garden/roomE-5.webp",
-            ],
-            plan: "/img/tower-garden/roomE-4.webp",
-            interiorm: "0",
-            interiorsqf: "0",
-            terracem: "0",
-            terracesqf: "0",
+            interiorm: "126",
+            interiorsqf: "1356.25",
+            terracem: "54",
+            terracesqf: "581.25",
         },
         {
             id: "6",
@@ -102,10 +72,43 @@ const page = () => {
                 "/img/tower-garden/roomF-4.webp",
             ],
             plan: "/img/tower-garden/roomF-3.webp",
-            interiorm: "0",
-            interiorsqf: "0",
-            terracem: "0",
-            terracesqf: "0",
+            interiorm: "145",
+            interiorsqf: "1560.77",
+            terracem: "12.5",
+            terracesqf: "134.54",
+        }
+    ];
+
+    const dataPenthouses = [
+        {
+            id: "4",
+            title: "Room Type - D",
+            bedrooms: "3",
+            bathroom: "3.5",
+            size: "242.2 m2 – 2,607 ft2",
+            gallery: [
+                "/img/tower-garden/roomD-5.webp",
+            ],
+            plan: "/img/tower-garden/roomD-7.webp",
+            interiorm: "159",
+            interiorsqf: "1711.46",
+            terracem: "83.2",
+            terracesqf: "895.55",
+        },
+        {
+            id: "5",
+            title: "Room Type - E",
+            bedrooms: "3",
+            bathroom: "3.5",
+            size: "225 m2 – 2,422 ft2",
+            gallery: [
+                "/img/tower-garden/roomE-5.webp",
+            ],
+            plan: "/img/tower-garden/roomE-7.webp",
+            interiorm: "162.5",
+            interiorsqf: "1749.13",
+            terracem: "62.5",
+            terracesqf: "672.74",
         },
         {
             id: "7",
@@ -116,11 +119,11 @@ const page = () => {
             gallery: [
                 "/img/tower-garden/roomG-5.webp",
             ],
-            plan: "/img/tower-garden/roomG-4.webp",
-            interiorm: "0",
-            interiorsqf: "0",
-            terracem: "0",
-            terracesqf: "0",
+            plan: "/img/tower-garden/roomG-7.webp",
+            interiorm: "178.5",
+            interiorsqf: "1921.358",
+            terracem: "121",
+            terracesqf: "1302.43",
         },
     ];
 
@@ -179,7 +182,8 @@ const page = () => {
                         </div>
                     </div>
                 </div>
-                <RoomSwiper roomData={data} title="Our Room Types" />
+                <RoomSwiper roomData={dataRooms} title="Our Room Types" />
+                <RoomSwiper roomData={dataPenthouses} title="Our Penthouses" />
 
             </div>
 

@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   output: 'export',
-  trailingSlash: 'true',
+  trailingSlash: true,
   images : { unoptimized: true}
 }
 

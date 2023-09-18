@@ -10,6 +10,26 @@ import RoomCard from "../ui/RoomCard";
 
 const RoomSwiper = ({ roomData, title }) => {
     const [selectedBedroom, setSelectedBedroom] = useState("All");
+
+    // Usar un conjunto (Set) para almacenar los valores únicos de "bedrooms"
+    const uniqueBedrooms = new Set();
+
+    // Recorrer el arreglo y agregar cada valor de "bedrooms" al conjunto
+    roomData.forEach(item => {
+    uniqueBedrooms.add(item.bedrooms);
+    });
+
+    // Convertir el conjunto en un arreglo si es necesario
+    const uniqueBedroomsArray = Array.from(uniqueBedrooms);
+
+    uniqueBedroomsArray.sort((a,b) => {
+        const numA = parseInt(a);
+        const numB = parseInt(b);
+
+        return numA - numB;
+
+    });
+
     
     const dataFiltered = selectedBedroom === "All" ? roomData : roomData.filter(data => data.bedrooms === selectedBedroom);
 
@@ -24,9 +44,12 @@ const RoomSwiper = ({ roomData, title }) => {
                     onChange={e => setSelectedBedroom(e.target.value)}
                 >
                     <option value="All">Select</option>
-                    <option value="1">1 Bedroom</option>
-                    <option value="2">2 Bedrooms</option>
-                    <option value="3">3 Bedrooms</option>
+                    {
+                        uniqueBedroomsArray.map((bedrooms,index) => (
+                            <option value={bedrooms} key={index}>{bedrooms} Bedrooms</option>
+
+                        ))
+                    }
                 </select>
             </div>
             <Swiper
