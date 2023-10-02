@@ -70,8 +70,8 @@ const page = () => {
             <div className='container w-11/12 mx-auto mt-16'>
                 <div>
                     <div>
-                        <h1 class="text-5xl lg:px-24 mx-1 mb-8 text-center">A GREAT DEVELOPMENT FOR THOSE THAT LOVE A BEACH TOWN</h1>
-                        {/* <h1 class="lg:px-24 mx-1 mb-8 text-center">Your new appartment in Quinta Banderas Bay</h1> */}
+                        <h1 className="text-5xl lg:px-24 mx-1 mb-8 text-center">A GREAT DEVELOPMENT FOR THOSE THAT LOVE A BEACH TOWN</h1>
+                        {/* <h1 className="lg:px-24 mx-1 mb-8 text-center">Your new appartment in Quinta Banderas Bay</h1> */}
 
                     </div>
                     <div className=' mx-1 text-justify'>
@@ -81,7 +81,7 @@ const page = () => {
                 </div>
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 my-8 text-5xl text-center ">MASTER PLAN</h1>
+                        <h1 className="lg:px-24 mx-1 my-8 text-5xl text-center ">MASTER PLAN</h1>
                     </div>
                     <div className='mx-auto text-center text-lg'>
                         <ul>
@@ -99,7 +99,7 @@ const page = () => {
             
             <div className='h-[32rem] text-white w-full  flex justify-center flex-col relative ' style={{background: "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(/img/banderas-bay/1_1-Foto-scaled.jpg)", backgroundSize: "cover" , backgroundPosition: "center"}}>
                 <div>
-                    <h1 class="lg:px-24 mx-1 pt-8 text-center text-white">Amenities</h1>
+                    <h1 className="lg:px-24 mx-1 pt-8 text-center text-white">Amenities</h1>
                 </div>
                 <div className='container w-11/12 mx-auto text-center text-xl uppercase  '>
                     <ul className='flex flex-wrap pb-6 items-center justify-center'>
@@ -111,6 +111,15 @@ const page = () => {
                     </ul>
                 </div>
             </div>
+
+            <div className='container w-11/12 mx-auto mt-16'>
+                <h2>Explore Our Tower in Virtual Reality</h2>
+                <iframe src="https://my.matterport.com/show/?m=GhyjV31yPiz&nt=1" width="100%" height="600">
+
+                </iframe>
+            </div>
+
+
 
             <ContactUs />
 

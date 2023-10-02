@@ -51,7 +51,7 @@ const page = () => {
             <div className='container w-11/12 mx-auto mt-16'> 
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 mb-8 text-5xl text-center">COMBINING A HIGH LEVEL OF COMFORT WITH A TOUCH OF INNOVATION</h1>
+                        <h1 className="lg:px-24 mx-1 mb-8 text-5xl text-center">COMBINING A HIGH LEVEL OF COMFORT WITH A TOUCH OF INNOVATION</h1>
                     </div>
                     <div className=' mx-1 text-center'>
                         <p>Natural light will pleasantly bathe the interiors, bringing you a wonderful feeling of spaciousness and freedom.</p>
@@ -59,7 +59,7 @@ const page = () => {
                 </div>
                 <div className='bg-[#8c8c8c] text-white w-full mx-auto mt-6 '>
                     <div>
-                        <h1 class="lg:px-24 mx-1 pt-8 text-center text-white">THE PROJECT</h1>
+                        <h1 className="lg:px-24 mx-1 pt-8 text-center text-white">THE PROJECT</h1>
                     </div>
                     <div className='mx-auto text-center text-lg'>
                         <ul className='flex flex-wrap pb-6 items-center justify-center'>

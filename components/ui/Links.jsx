@@ -2,7 +2,7 @@ import { useState } from "react";
 import NavLink from "@/components/ui/NavLink";
 
 
-const NavLinks = () => {
+const NavLinks = ({closeMenu}) => {
     const data = [
         {
             title: "Home",
@@ -10,11 +10,11 @@ const NavLinks = () => {
         },
         {
             title: "Ocean & Canal I",
-            url: "#",
+            url: "/ocean-and-canal/",
         },
         {
             title: "Ocean & Canal II",
-            url: "#",
+            url: "/ocean-and-canal-2/",
         },
         {
             title: "Golf Residences",
@@ -50,7 +50,9 @@ const NavLinks = () => {
                 return (
                     <div key={index} className="relative group">
                         <div className="group-hover:mt-5">
-                            <NavLink href="#" multi>Ocean & Canal I</NavLink>
+                            <button onClick={closeMenu} key={index}>
+                                <NavLink href="/ocean-and-canal" multi>Ocean & Canal I</NavLink>
+                            </button>
                         </div>
                         <div className="hidden group-hover:block  ">
                             <div  className=" mb-5">
@@ -63,7 +65,6 @@ const NavLinks = () => {
                                         <NavLink href="/ocean-and-canal/tower-1-and-2" subtitle>Tower 1 y 2</NavLink>
                                         <NavLink href="/ocean-and-canal/tower-3" subtitle>Tower 3</NavLink>
                                         <NavLink href="/ocean-and-canal/work-in-progress" subtitle>Work in Progress</NavLink>
-
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +75,9 @@ const NavLinks = () => {
                     return(
                         <div key={index} className="relative group">
                         <div className="group-hover:mt-5">
-                            <NavLink href="#" multi>Ocean & Canal II</NavLink>
+                            <button onClick={closeMenu}>
+                                <NavLink href="/ocean-and-canal-2/" multi>Ocean & Canal II</NavLink>
+                            </button>                        
                         </div>
                         <div className="hidden group-hover:block  ">
                             <div  className=" mb-5">
@@ -99,7 +102,10 @@ const NavLinks = () => {
                     return(
                         <div key={index} className="relative group">
                         <div className="group-hover:mt-5">
-                            <NavLink href="/golf-residences">Golf Residences</NavLink>
+                            <button onClick={closeMenu} key={index}>
+                            
+                                <NavLink href="/golf-residences">Golf Residences</NavLink>
+                            </button>
                         </div>
                         <div className="hidden group-hover:block  ">
                             <div  className=" mb-5">
@@ -108,7 +114,6 @@ const NavLinks = () => {
                                         <NavLink href="/golf-residences" title>
                                             SOLD OUT
                                         </NavLink>
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -119,11 +124,12 @@ const NavLinks = () => {
                     
                 } else {
                     return (
-                        <div key={index}>
+                        <button onClick={closeMenu} key={index}>
+
                             <NavLink href={menu.url}  >
                                 {menu.title}
                             </NavLink>
-                        </div>
+                        </button>
                     );
                 }
             })}

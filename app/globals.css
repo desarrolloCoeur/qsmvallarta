@@ -70,11 +70,18 @@
 
 .card .swiper-button-prev,.card .swiper-button-next{
     top: 107% !important;
-
 }
 
 .card .swiper-button-next{
     left: 80px !important;
+}
+
+.card-2 .swiper-button-prev,.card-2 .swiper-button-next{
+    top: 50% !important;
+}
+
+.card-2 .swiper-button-next{
+    left: inherit !important;
 }
 
 

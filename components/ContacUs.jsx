@@ -5,8 +5,8 @@ const ContacUs = () => {
     <div className="lg:mx-32 mx-6 text-lg pt-12">
         <div className="flex justify-center">
             <div className="flex">
-                <h3 className="text-6xl font-light mb-10">Contact</h3>
-                <h3 className="text-6xl font-light mb-10 ml-3"><strong> Us</strong></h3>
+                <h3 className="md:text-6xl font-light mb-10">Contact</h3>
+                <h3 className="md:text-6xl font-light mb-10 ml-3"><strong> Us</strong></h3>
             </div>
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1 lg:gap-10 gap-3 lg:w-3/5 w-4/5 mx-auto">

@@ -119,7 +119,7 @@ const page = () => {
             <div className='container w-11/12 mx-auto mt-16'>
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 text-5xl mb-8 text-center">IN THE EXCLUSIVE ZONE OF NUEVO VALLARTA</h1>
+                        <h1 className="lg:px-24 mx-1 text-5xl mb-8 text-center">IN THE EXCLUSIVE ZONE OF NUEVO VALLARTA</h1>
                     </div>
                     <div className=' mx-1 text-justify'>
                         <p>Quinta San Miguel Ocean & Canal is an exclusive development with unique taste, offering a private canal with slips area surrounded by luxury resorts, the finest restaurants and commercial centers. It is located in the most secure zone with the highest capital gain in Riviera Nayarit.</p>
@@ -129,7 +129,7 @@ const page = () => {
                 </div>
                 <div>
                     <div>
-                        <h1 class="lg:px-24 mx-1 my-8 text-5xl text-center ">MASTER PLAN</h1>
+                        <h1 className="lg:px-24 mx-1 my-8 text-5xl text-center ">MASTER PLAN</h1>
                     </div>
                     <div className='mx-auto text-center text-lg'>
                         <ul>
@@ -149,7 +149,7 @@ const page = () => {
 
             <div className='h-[29rem] text-white w-full  flex justify-center flex-col relative ' style={{background: "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(/img/tower-1-and-2/slider.jpg)", backgroundSize: "cover" , backgroundPosition: "center"}}>
                 <div>
-                    <h1 class="lg:px-24 mx-1 pt-8 text-center text-white">Why Quinta San Miguel ?</h1>
+                    <h1 className="lg:px-24 mx-1 pt-8 text-center text-white">Why Quinta San Miguel ?</h1>
                 </div>
                 <div className='container w-11/12 mx-auto text-center text-xl uppercase  '>
                     <ul className='flex flex-wrap pb-6 items-center '>

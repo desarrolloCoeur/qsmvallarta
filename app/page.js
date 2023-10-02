@@ -128,7 +128,7 @@ export default function Home() {
 
 
         <section className='container w-11/12 mx-auto my-20'>
-          <h2 className='pb-6 uppercase'>Galeria de construcciones</h2>
+          <h2 className='text-2xl sm:text-4xl pb-6 uppercase'>Galeria de construcciones</h2>
           <Swiper navigation={true} modules={[Navigation]} className="mySwiper" breakpoints={{
             640: {
               slidesPerView: 2,
@@ -148,7 +148,7 @@ export default function Home() {
             {data.map((location,index) => (
               <SwiperSlide key={index}  >
               <div className={`h-72 relative rounded-md w-full`} style={{backgroundImage: `url(${location.img})`, backgroundSize: 'cover', backgroundPosition:'center'}}>
-              <div class="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-t"></div>
+              <div className="absolute inset-0 bg-transparent from-black/40 to-black/0 bg-gradient-to-t"></div>
                 <div className="absolute bottom-5 left-5 flex flex-col gap-2 items-start">
                   <h4 className="text-xl uppercase text-white font-extrabold text-left">{location.title}</h4>
                   <p className='text-white font-thin uppercase text-xs '>{location.location}</p>

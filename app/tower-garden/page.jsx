@@ -89,7 +89,7 @@ const page = () => {
             gallery: [
                 "/img/tower-garden/roomD-5.webp",
             ],
-            plan: "/img/tower-garden/roomD-7.webp",
+            plan: [ "/img/tower-garden/roomD-6.webp", "/img/tower-garden/roomD-7.webp"],
             interiorm: "159",
             interiorsqf: "1711.46",
             terracem: "83.2",
@@ -104,7 +104,7 @@ const page = () => {
             gallery: [
                 "/img/tower-garden/roomE-5.webp",
             ],
-            plan: "/img/tower-garden/roomE-7.webp",
+            plan: ["/img/tower-garden/roomE-6.webp","/img/tower-garden/roomE-7.webp"],
             interiorm: "162.5",
             interiorsqf: "1749.13",
             terracem: "62.5",
@@ -119,7 +119,7 @@ const page = () => {
             gallery: [
                 "/img/tower-garden/roomG-5.webp",
             ],
-            plan: "/img/tower-garden/roomG-7.webp",
+            plan: ["/img/tower-garden/roomG-6.webp","/img/tower-garden/roomG-7.webp"],
             interiorm: "178.5",
             interiorsqf: "1921.358",
             terracem: "121",
@@ -189,17 +189,19 @@ const page = () => {
 
             {/* <div className='h-[32rem] text-white w-full  flex justify-center flex-col relative ' style={{ background: "linear-gradient( rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),url(/img/tower-garden/VISTA-AEREA-ROOF.webp)", backgroundSize: "cover", backgroundPosition: "center" }}>
                 <div>
-                    <h2 class="absolute  top-16 left-0 right-0 bottom-0 flex items-center justify-center text-white uppercase">YOUR DREAM HOME IS WAITING FOR YOU</h2>
+                    <h2 className="absolute  top-16 left-0 right-0 bottom-0 flex items-center justify-center text-white uppercase">YOUR DREAM HOME IS WAITING FOR YOU</h2>
                 </div>
             </div> */}
 
-            <div class="w-full h-auto flex justify-center text-center items-center	">
-                <div class="w-[90%] mx-auto flex flex-wrap justify-around">
+            <div className="w-full h-auto flex justify-center text-center items-center	">
+                <div className="w-[90%] mx-auto flex flex-wrap justify-around">
                 <Image src="/img/OLLR-1-1-scaled.jpg" alt="" height={400} width={450} className="object-cover p-[10px]" />
                 <Image src="/img/tower-garden/VISTA-AEREA-ROOF.webp" alt="" height={400} width={450} className="object-cover p-[10px]" />
                 <Image src="/img/garden2.webp" alt="" height={400} width={450} className="object-cover p-[10px]" />
                 </div>
             </div>
+
+            
 
 
             <ContacUs className="mt-20" />
