@@ -2,18 +2,18 @@ import Tabs from '@/components/Tabs'
 import React from 'react'
 
 const tab = [
-    // {
-    //     label : 'September',
-    //     images : ['/img/tower-garden/2023/september/garden-september-1.jpg',
-    //             '/img/tower-garden/2023/september/garden-september-2.jpg',
-    //             '/img/tower-garden/2023/september/garden-september-3.jpg',
-    //             '/img/tower-garden/2023/september/garden-september-4.jpg',
-    //             '/img/tower-garden/2023/september/garden-september-5.jpg',
-    //             '/img/tower-garden/2023/september/garden-september-6.jpg',
-    //             '/img/tower-garden/2023/september/garden-september-7.jpg',
-    //             '/img/tower-garden/2023/september/garden-september-8.jpg',
-    //             ]
-    // },
+    {
+        label : 'September',
+        images : ['/img/tower-garden/2023/september/garden-september-1.jpg',
+                '/img/tower-garden/2023/september/garden-september-2.jpg',
+                '/img/tower-garden/2023/september/garden-september-3.jpg',
+                '/img/tower-garden/2023/september/garden-september-4.jpg',
+                '/img/tower-garden/2023/september/garden-september-5.jpg',
+                '/img/tower-garden/2023/september/garden-september-6.jpg',
+                '/img/tower-garden/2023/september/garden-september-7.jpg',
+                '/img/tower-garden/2023/september/garden-september-8.jpg',
+                ]
+    },
     {
       label : 'October',
       images : ['/img/tower-garden/2023/october/garden-oct-1.webp',
