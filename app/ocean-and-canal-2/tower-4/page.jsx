@@ -23,7 +23,7 @@ import 'swiper/css';
 
 
 
-const page = () => {
+const Page = () => {
     const [selectedUnit, setSelectedUnit] = useState(null);
     const [selectedUnitType, setSelectedUnitType] = useState(null)
     const [isPopupOpen, setisPopupOpen] = useState(false);
@@ -1157,4 +1157,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
