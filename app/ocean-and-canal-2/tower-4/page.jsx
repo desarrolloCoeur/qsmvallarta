@@ -76,12 +76,8 @@ const Page = () => {
 
         if (typeof secondPercentage === 'number') {
             price *= secondPercentage; // Aplicar el segundo porcentaje
-
-
         }
-
-
-      
+        
         // Formatear el precio como moneda MXN con comas como separadores de miles
         const formattedPriceValue = new Intl.NumberFormat('en-US').format(price);
         return formattedPriceValue;

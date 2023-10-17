@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const ApartmentInventory = ({points,status,apartmentNumber,x,y,onPopupOpen}) => {
 
-    let polygonClass = 'fill-current opacity-50 ';
+    let polygonClass = 'fill-current opacity-70 stroke-[2px] ';
 
     if( status === "available"){
-        polygonClass += "fill-green-500"
+        polygonClass += "fill-green-500 stroke-green-900"
     } else if (status === "on-hold") {
         polygonClass += "fill-yellow-500"
     } else if (status === "sold"){
