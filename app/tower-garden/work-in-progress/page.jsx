@@ -14,6 +14,25 @@ const tab = [
                 '/img/tower-garden/2023/september/garden-september-8.jpg',
                 ]
     },
+    {
+      label : 'October',
+      images : ['/img/tower-garden/2023/october/garden-oct-1.webp',
+                '/img/tower-garden/2023/october/garden-oct-2.webp',
+                '/img/tower-garden/2023/october/garden-oct-3.webp',
+                '/img/tower-garden/2023/october/garden-oct-4.webp',
+                '/img/tower-garden/2023/october/garden-oct-5.webp',
+                '/img/tower-garden/2023/october/garden-oct-6.webp',
+                '/img/tower-garden/2023/october/garden-oct-7.webp',
+                '/img/tower-garden/2023/october/garden-oct-8.webp',
+                '/img/tower-garden/2023/october/garden-oct-9.webp',
+                '/img/tower-garden/2023/october/garden-oct-10.webp',
+                '/img/tower-garden/2023/october/garden-oct-11.webp',
+                '/img/tower-garden/2023/october/garden-oct-12.webp',
+                '/img/tower-garden/2023/october/garden-oct-13.webp',
+                '/img/tower-garden/2023/october/garden-oct-14.webp',
+                '/img/tower-garden/2023/october/garden-oct-15.webp',
+                ]
+  },
 ]
 
 

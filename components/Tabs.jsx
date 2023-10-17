@@ -12,10 +12,12 @@ import 'swiper/css/navigation';
 import Image from "next/image";
 
 const Tabs = ({ tabs }) => {
+    const [uniqueKey, setUniqueKey] = useState(0);
     const [activeTab, setActiveTab] = useState(0);
 
     const handleClick = (index) => {
         setActiveTab(index);
+        setUniqueKey(uniqueKey + 1);
     };
 
     return (
@@ -34,6 +36,7 @@ const Tabs = ({ tabs }) => {
                 ))}
             </ul>
             <Swiper
+                key={uniqueKey}
                 spaceBetween={50}
                 slidesPerView={1}
                 navigation={true}

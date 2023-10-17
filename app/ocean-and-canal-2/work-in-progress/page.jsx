@@ -5,6 +5,10 @@ const tab = [
         label : 'September',
         images : ['/img/ocean-canal-2/2023/septiembre/septiembre-2023-1.jpg','/img/ocean-canal-2/2023/septiembre/septiembre-2023-2.jpg','/img/ocean-canal-2/2023/septiembre/septiembre-2023-3.jpg','/img/ocean-canal-2/2023/septiembre/septiembre-2023-4.jpg','/img/ocean-canal-2/2023/septiembre/septiembre-2023-6.jpg','/img/ocean-canal-2/2023/septiembre/septiembre-2023-7.jpg','/img/ocean-canal-2/2023/septiembre/septiembre-2023-8.jpg','/img/ocean-canal-2/2023/septiembre/septiembre-2023-9.jpg']
     },
+    {
+        label : 'October',
+        images : ['/img/ocean-canal-2/2023/octubre/tower4-oct-1.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-2.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-3.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-4.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-5.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-6.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-7.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-8.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-9.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-10.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-11.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-12.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-13.webp']
+    }
 ]
 
 const page = () => {
