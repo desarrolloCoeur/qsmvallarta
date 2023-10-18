@@ -1042,7 +1042,9 @@ const Page = () => {
                             </tbody>
                         </table>
                         <div className="mt-5">
-                            <h3>Price Plans</h3>
+                        { selectedUnit.unitStatus === "available" && (
+                                <>
+                                <h3>Price Plans</h3>
                             <div>
                                 <button className={`font-bold px-2 py-1 rounded-md ${selectePrice == "discount" ? "text-white bg-main" : null}`} onClick={() => handlePriceOption('discount')}>5% Discount</button>
                                 <button className={`font-bold px-2 py-1 rounded-md ${selectePrice == "list-price" ? "text-white bg-main" : null}`} onClick={() => handlePriceOption('list-price')}>List Price</button>
@@ -1118,12 +1120,18 @@ const Page = () => {
                                         </tr>
                                     </table>
                                 </div>
-                            </div>
+                            </div>  
                             <ul className="text-sm list-disc list-inside">
                                 <li>Prices, discounts and payment plans are subject to modifications without previous notice.</li>
                                 <li>The Purchase-Sale agreement must be signed within 10 days after signing of the Purchase Request</li>
                                 <li>If the Purchase-Sale agreement is not signed the property will be released and Back on the Market</li>
                             </ul>
+
+
+                                </>
+                                )
+                            
+                            }
 
                         </div>
                     </div>
