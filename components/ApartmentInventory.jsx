@@ -7,9 +7,9 @@ const ApartmentInventory = ({points,status,apartmentNumber,x,y,onPopupOpen}) => 
     if( status === "available"){
         polygonClass += "fill-green-500 stroke-green-900"
     } else if (status === "on-hold") {
-        polygonClass += "fill-yellow-500"
+        polygonClass += "fill-yellow-500 stroke-yellow-900"
     } else if (status === "sold"){
-        polygonClass += "fill-red-500"
+        polygonClass += "fill-red-500 stroke-red-900"
     }
     const handleClick = (event) => {
         event.preventDefault(); // Prevenir la navegación predeterminada
