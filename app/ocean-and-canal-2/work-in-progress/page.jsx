@@ -8,7 +8,16 @@ const tab = [
     {
         label : 'October',
         images : ['/img/ocean-canal-2/2023/octubre/tower4-oct-1.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-2.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-3.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-4.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-5.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-6.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-7.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-8.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-9.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-10.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-11.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-12.webp','/img/ocean-canal-2/2023/octubre/tower4-oct-13.webp']
-    }
+    },
+    {
+        label : 'November',
+        images : ['/img/ocean-canal-2/2023/noviembre/avance-nov-ocean-and-canal-2-11.webp',
+        '/img/ocean-canal-2/2023/noviembre/avance-nov-ocean-and-canal-2-18.webp',
+        '/img/ocean-canal-2/2023/noviembre/avance-nov-ocean-and-canal-2-25.webp',
+        '/img/ocean-canal-2/2023/noviembre/avance-nov-ocean-and-canal-2-30.webp',
+        '/img/ocean-canal-2/2023/noviembre/avance-nov-ocean-and-canal-2-40.webp',
+    ]
+    },
 ]
 
 const page = () => {
