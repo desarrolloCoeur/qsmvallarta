@@ -50,7 +50,7 @@ const Builds = () => {
             data.map((t,i) => {
                 return (
                     <>
-                        <BuildingCard background={t.thumb} title={t.title} sold={t.sold} key={t.title} href={t.href}/>
+                        <BuildingCard background={t.thumb} title={t.title} sold={t.sold} key={i} href={t.href}/>
                     </>
                 )
             })
