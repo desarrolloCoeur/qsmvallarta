@@ -33,6 +33,17 @@ const tab = [
                 '/img/tower-garden/2023/october/garden-oct-15.webp',
                 ]
   },
+  {
+    label : 'November',
+    images : ['/img/tower-garden/2023/noviembre/avance-nov-garden-1.webp',
+    '/img/tower-garden/2023/noviembre/avance-nov-garden-11.webp',
+    '/img/tower-garden/2023/noviembre/avance-nov-garden-19.webp',
+    '/img/tower-garden/2023/noviembre/avance-nov-garden-26.webp',
+    '/img/tower-garden/2023/noviembre/avance-nov-garden-29.webp',
+    '/img/tower-garden/2023/noviembre/avance-nov-garden-30.webp',
+    '/img/tower-garden/2023/noviembre/avance-nov-garden-34.webp',
+              ]
+},
 ]
 
 
