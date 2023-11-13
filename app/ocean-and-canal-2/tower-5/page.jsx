@@ -20,7 +20,7 @@ import {
 import ContacUs from '@/components/ContacUs';
 
 
-const page = () => {
+const Page = () => {
     // nuevo
     const [selectedUnit, setSelectedUnit] = useState(null);
     const [selectedUnitType, setSelectedUnitType] = useState(null)
@@ -561,7 +561,7 @@ const page = () => {
         },
         {
             unit : "601",
-            unitType : "Room Type - R",
+            unitType : "Room Type - R PH CORNER",
             level: "6",
             unitStatus : "available",
             unitPrice : "20510000",
@@ -570,7 +570,7 @@ const page = () => {
         },
         {
             unit : "602",
-            unitType : "Room Type - S ROOF",
+            unitType : "Room Type - S PH ROOF",
             level: "6",
             unitStatus : "available",
             unitPrice : "16640000",
@@ -579,7 +579,7 @@ const page = () => {
         },
         {
             unit : "603",
-            unitType : "Room Type - S",
+            unitType : "Room Type - S PH CENTRAL",
             level: "6",
             unitStatus : "available",
             unitPrice : "14720000",
@@ -588,7 +588,7 @@ const page = () => {
         },
         {
             unit : "604",
-            unitType : "Room Type - S",
+            unitType : "Room Type - S PH CENTRAL",
             level: "6",
             unitStatus : "available",
             unitPrice : "14720000",
@@ -597,7 +597,7 @@ const page = () => {
         },
         {
             unit : "605",
-            unitType : "Room Type - S ROOF",
+            unitType : "Room Type - S PH ROOF",
             level: "6",
             unitStatus : "available",
             unitPrice : "16640000",
@@ -606,7 +606,7 @@ const page = () => {
         },
         {
             unit : "606",
-            unitType : "Room Type - R",
+            unitType : "Room Type - R PH CORNER",
             level: "6",
             unitStatus : "available",
             unitPrice : "25000000", 
@@ -883,4 +883,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
