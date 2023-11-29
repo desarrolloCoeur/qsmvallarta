@@ -18,6 +18,17 @@ const tab = [
         '/img/ocean-canal-2/2023/noviembre/avance-nov-ocean-and-canal-2-40.webp',
     ]
     },
+    {
+        label : 'December',
+        images : ['/img/ocean-canal-2/2023/diciembre/canal-2-dic-1.webp',
+        '/img/ocean-canal-2/2023/diciembre/canal-2-dic-2.webp',
+        '/img/ocean-canal-2/2023/diciembre/canal-2-dic-3.webp',
+        '/img/ocean-canal-2/2023/diciembre/canal-2-dic-4.webp',
+        '/img/ocean-canal-2/2023/diciembre/canal-2-dic-5.webp',
+        '/img/ocean-canal-2/2023/diciembre/canal-2-dic-6.webp',
+        '/img/ocean-canal-2/2023/diciembre/canal-2-dic-7.webp',
+    ]
+    },
 ]
 
 const page = () => {

@@ -44,6 +44,15 @@ const tab = [
     '/img/tower-garden/2023/noviembre/avance-nov-garden-34.webp',
               ]
 },
+{
+  label : 'December',
+  images : ['/img/tower-garden/2023/diciembre/garden-dic-1.webp',
+  '/img/tower-garden/2023/diciembre/garden-dic-2.webp',
+  '/img/tower-garden/2023/diciembre/garden-dic-3.webp',
+  '/img/tower-garden/2023/diciembre/garden-dic-4.webp',
+  '/img/tower-garden/2023/diciembre/garden-dic-5.webp',
+            ]
+},
 ]
 
 
