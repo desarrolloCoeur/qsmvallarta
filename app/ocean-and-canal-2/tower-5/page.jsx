@@ -1,4 +1,3 @@
-// *********
 "use client"
 import { useState, useEffect } from "react";
 import ApartmentInventory from "@/components/ApartmentInventory";
@@ -80,8 +79,6 @@ const Page = () => {
         const formattedPriceValue = new Intl.NumberFormat('en-US').format(price);
         return formattedPriceValue;
       }
-// *******
-
 
     const data = [
         {

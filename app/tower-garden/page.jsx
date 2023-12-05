@@ -70,6 +70,7 @@ const Page = () => {
                 return "bg-red-500";
         }
     };
+    
     function formattedPrice(price, percentage, secondPercentage) {
         // Verificar si percentage es un número válido
         if (typeof percentage === "number") {
@@ -523,7 +524,7 @@ const Page = () => {
                                                 <>
                                                     <h3>Price Plans</h3>
                                                     <div>
-                                                        <button
+                                                        {/* <button
                                                             className={`font-bold px-2 py-1 rounded-md ${selectePrice ==
                                                                     "discount"
                                                                     ? "text-white bg-main"
@@ -536,13 +537,9 @@ const Page = () => {
                                                             }
                                                         >
                                                             5% Discount
-                                                        </button>
+                                                        </button> */}
                                                         <button
-                                                            className={`font-bold px-2 py-1 rounded-md ${selectePrice ==
-                                                                    "list-price"
-                                                                    ? "text-white bg-main"
-                                                                    : null
-                                                                }`}
+                                                            className={`font-bold px-2 py-1 rounded-md text-white bg-main `}
                                                             onClick={() =>
                                                                 handlePriceOption(
                                                                     "list-price"
@@ -553,11 +550,7 @@ const Page = () => {
                                                         </button>
                                                         <div>
                                                             <table
-                                                                className={`table-auto border my-4 ${selectePrice ==
-                                                                        "list-price"
-                                                                        ? null
-                                                                        : "hidden"
-                                                                    }`}
+                                                                className={`table-auto border my-4`}
                                                             >
                                                                 <tr>
                                                                     <td
@@ -645,7 +638,7 @@ const Page = () => {
                                                                     </td>
                                                                 </tr>
                                                             </table>
-                                                            <table
+                                                            {/* <table
                                                                 className={`table-auto border my-4 ${selectePrice ==
                                                                         "discount"
                                                                         ? null
@@ -733,7 +726,7 @@ const Page = () => {
                                                                         )} MXN`}
                                                                     </td>
                                                                 </tr>
-                                                            </table>
+                                                            </table> */}
                                                         </div>
                                                     </div>
                                                     <ul className="text-sm list-disc list-inside">

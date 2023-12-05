@@ -1046,10 +1046,10 @@ const Page = () => {
                                 <>
                                 <h3>Price Plans</h3>
                             <div>
-                                <button className={`font-bold px-2 py-1 rounded-md ${selectePrice == "discount" ? "text-white bg-main" : null}`} onClick={() => handlePriceOption('discount')}>5% Discount</button>
-                                <button className={`font-bold px-2 py-1 rounded-md ${selectePrice == "list-price" ? "text-white bg-main" : null}`} onClick={() => handlePriceOption('list-price')}>List Price</button>
+                                {/* <button className={`font-bold px-2 py-1 rounded-md ${selectePrice == "discount" ? "text-white bg-main" : null}`} onClick={() => handlePriceOption('discount')}>5% Discount</button> */}
+                                <button className={`font-bold px-2 py-1 rounded-md text-white bg-main`} onClick={() => handlePriceOption('list-price')}>List Price</button>
                                 <div>
-                                    <table className={`table-auto border my-4 ${selectePrice == "list-price" ? null : "hidden"}`}>
+                                    <table className={`table-auto border my-4 `}>
                                         <tr>
                                             <td className="border p-2 text-center bg-main text-white" colSpan={2}>
                                                 <h5 className="uppercase font-semibold">List Price</h5>
@@ -1084,7 +1084,7 @@ const Page = () => {
                                             </td>
                                         </tr>
                                     </table>
-                                    <table className={`table-auto border my-4 ${selectePrice == "discount" ? null : "hidden"}`}>
+                                    {/* <table className={`table-auto border my-4 ${selectePrice == "discount" ? null : "hidden"}`}>
                                         <tr>
                                             <td className="border p-2 text-center bg-main text-white" colSpan={2}>
                                                 <h5 className="uppercase font-semibold">5% Discount Price</h5>
@@ -1118,7 +1118,7 @@ const Page = () => {
                                                 {`$${formattedPrice(selectedUnit.unitPrice,0.95,0.65)} MXN`}
                                             </td>
                                         </tr>
-                                    </table>
+                                    </table> */}
                                 </div>
                             </div>  
                             <ul className="text-sm list-disc list-inside">

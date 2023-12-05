@@ -1,12 +1,13 @@
 import BuildingCard from '@/components/ui/BuildingCard'
 import BuildingHero from '@/components/ui/BuildingHero'
+import VideoAutoplayOcean from '@/components/ui/VideoAutoplayOceanTwo'
 import React from 'react'
 
 
 const page = () => {
     return (
         <>
-            <BuildingHero background="/img/home-ocean-canal.jpg" title="Ocean & Canal 2"/>
+            <VideoAutoplayOcean />
 
             <div className="lg:mx-24 mx-6 lg:pt-12 pt-6 mb-14">
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 ">
