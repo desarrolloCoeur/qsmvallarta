@@ -86,9 +86,9 @@ export default function Home() {
         <Swiper navigation={true} modules={[Autoplay, Navigation]} autoplay={{
             delay: 3500,
             disableOnInteraction: false,}} className="mySwiper">
-          <SwiperSlide><Image src="/img/9.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
-          <SwiperSlide><Image src="/img/tower-1-and-2/torre-1-2-cover-1.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
-          <SwiperSlide><Image src="/img/bucerias-4.jpg" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
+          <SwiperSlide><Image src="/img/slider.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
+          <SwiperSlide><Image src="/img/slider2.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
+          <SwiperSlide><Image src="/img/slider3.webp" className='h-[100dvh] w-full object-cover' height={1920} width={1080} alt='Imagen de Quinta San Miguel' /></SwiperSlide>
         </Swiper>
 
         <div className="container w-11/12 mx-auto max-w-[900px]  py-20">
