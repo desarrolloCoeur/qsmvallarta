@@ -12,17 +12,20 @@ const tab = [
     {
         label : 'Octubre',
         images : ['/img/work-in-progress/2020/octubre/working-october.jpg',
-        '',]
+        '/img/work-in-progress/2020/octubre/working-october-2.jpg',]
     },
     {
         label : 'Noviembre',
         images : ['/img/work-in-progress/2020/noviembre/wip-noviembre-1.jpg',
-        '',]
+        '/img/work-in-progress/2020/noviembre/wip-noviembre-2.jpg',
+        '/img/work-in-progress/2020/noviembre/wip-noviembre-3.jpg',
+        '/img/work-in-progress/2020/noviembre/wip-noviembre-4.jpg',]
     },
     {
         label : 'Diciembre',
         images : ['/img/work-in-progress/2020/diciembre/wip-diciembre-1.jpg',
-        '',]
+        '/img/work-in-progress/2020/diciembre/wip-diciembre-2.jpg',
+        '/img/work-in-progress/2020/diciembre/wip-diciembre-3.jpg']
     },
 ]
 
