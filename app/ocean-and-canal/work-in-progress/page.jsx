@@ -329,21 +329,20 @@ const page = () => {
     return (
         <div className="pt-32 container mx-auto w-11/12">
             <h1 className="text-center lg:text-6xl text-4xl font-semibold">Work in Progress <br/> Ocean & Canal 1</h1>
-            <p className="text-xl font-bold uppercase">Year:</p>
             <div id="2023">
-                <button className="my-3 cursor-pointer text-xl p-1 rounded-md bg-main text-white">2023</button>
+                <p className="text-xl font-bold uppercase">Year: 2023</p>
                 <Tabs tabs={tab2023}/>
             </div>
             <div id="2022" className="pt-12">
-                <button className="my-3 cursor-pointer text-xl p-1 rounded-md bg-main text-white">2022</button>
+                <p className="text-xl font-bold uppercase">Year: 2022</p>
                 <Tabs tabs={tab2022}/>
             </div>
             <div id="2021" className="pt-12">
-                <button className="my-3 cursor-pointer text-xl p-1 rounded-md bg-main text-white">2021</button>
+                <p className="text-xl font-bold uppercase">Year: 2021</p>
                 <Tabs tabs={tab2021}/>
             </div>
             <div id="2020" className="pt-12">
-                <button className="my-3 cursor-pointer text-xl p-1 rounded-md bg-main text-white">2020</button>
+                <p className="text-xl font-bold uppercase">Year: 2020</p>
                 <Tabs tabs={tab2020}/>
             </div>
             
