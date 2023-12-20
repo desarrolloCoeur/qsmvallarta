@@ -329,6 +329,9 @@ const page = () => {
     return (
         <div className="pt-32 container mx-auto w-11/12">
             <h1 className="text-center lg:text-6xl text-4xl font-semibold">Work in Progress <br/> Ocean & Canal 1</h1>
+             
+            {/* <p className="text-xl font-bold uppercase">Year:</p> */}
+
             <div id="2023">
                 <p className="text-xl font-bold uppercase">Year: 2023</p>
                 <Tabs tabs={tab2023}/>
