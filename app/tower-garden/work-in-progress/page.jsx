@@ -51,6 +51,10 @@ const tab = [
   '/img/tower-garden/2023/diciembre/garden-dic-3.webp',
   '/img/tower-garden/2023/diciembre/garden-dic-4.webp',
   '/img/tower-garden/2023/diciembre/garden-dic-5.webp',
+  '/img/tower-garden/2023/diciembre/garden-dic-6.webp',
+  '/img/tower-garden/2023/diciembre/garden-dic-7.webp',
+  '/img/tower-garden/2023/diciembre/garden-dic-8.webp',
+  '/img/tower-garden/2023/diciembre/garden-dic-9.webp',
             ]
 },
 ]
