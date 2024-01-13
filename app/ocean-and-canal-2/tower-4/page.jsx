@@ -453,8 +453,8 @@ const Page = () => {
             unit : "101",
             unitType : "Room Type - A",
             level: "1",
-            unitStatus : "available",
-            unitPrice : "8892870",
+            unitStatus : "on-hold",
+            unitPrice : "10032000",
             points: "1288,646 1288,719 1205,732 1205,645",
             textPoints : [1220,700]
         },
@@ -463,7 +463,7 @@ const Page = () => {
             unitType : "Room Type - B",
             level: "1",
             unitStatus : "sold",
-            unitPrice : "-",
+            unitPrice : "25568000",
             points: "942,647 1200,644 1200,738 1140,758 872,749 873,687 942,681",
             textPoints : [1030,710]
         },
@@ -472,7 +472,7 @@ const Page = () => {
             level: "1",
             unitType : "Room Type - C",
             unitStatus : "available",
-            unitPrice : "13133400",
+            unitPrice : "15636000",
             points: "711,645 935,645 935,683 871,686 871,752 614,740 614,683 712,678",
             textPoints : [772,702]
         },
@@ -480,8 +480,8 @@ const Page = () => {
             unit : "104",
             level: "1",
             unitType : "Room Type - D",
-            unitStatus : "available",
-            unitPrice : "13689900",
+            unitStatus : "on-hold",
+            unitPrice : "16592000",
             points: "520,647 708,647 708,678 613,683 613,742 395,726 395,682 520,676",
             textPoints : [530,700]
         },
@@ -489,7 +489,7 @@ const Page = () => {
             unit : "105",
             unitType : "Room Type - E",
             unitStatus : "available",
-            unitPrice : "12243000",
+            unitPrice : "15344000",
             points: "365,647 515,647 515,676 395,680 395,733 301,730 301,678 365,676",
             textPoints : [315,720]
         },
@@ -498,7 +498,7 @@ const Page = () => {
             level: "1",
             unitType : "Room Type - F",
             unitStatus : "available",
-            unitPrice : "14357700",
+            unitPrice : "20784000",
             points: "239,647 360,647 360,675 294,677 294,735 177,731 177,678 239,673",
             textPoints : [220,720]
         },
@@ -507,7 +507,7 @@ const Page = () => {
             level: "2",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "5964000",
             points: "1242,571 1287,580 1287,642 1242,640",
             textPoints : [1255,624]
         },
@@ -515,8 +515,8 @@ const Page = () => {
             unit : "202",
             level: "2",
             unitType : "Room Type - F",
-            unitStatus : "on-hold",
-            unitPrice : "8,892,870",
+            unitStatus : "sold",
+            unitPrice : "5040000",
             points: "1217,562 1241,571 1240,641 1217,641",
             textPoints : [1221,624]
         },
@@ -525,7 +525,7 @@ const Page = () => {
             level: "2",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "4200000",
             points: "1186,548 1216,564 1216,640 1185,638",
             textPoints : [1187,624]
         },
@@ -533,7 +533,7 @@ const Page = () => {
             unit : "204",
             level: "2",
             unitType : "Room Type - U",
-            unitStatus : "available",
+            unitStatus : "sold",
             unitPrice : "9600000",
             points: "970,558 1180,548 1180,639 954,639 954,608 970,608",
             textPoints : [1030,610]
@@ -552,7 +552,7 @@ const Page = () => {
             level: "2",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "8480000",
             points: "594,574 677,569 677,640 571,640 572,616 594,616",
             textPoints : [605,618]
         },
@@ -561,7 +561,7 @@ const Page = () => {
             level: "2",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "8480000",
             points: "476,577 548,574 548,642 453,642 453,618 478,618",
             textPoints : [485,622]
         },
@@ -569,7 +569,7 @@ const Page = () => {
             unit : "208",
             level: "2",
             unitType : "Room Type - K",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "8480000",
             points: "375,584 435,581 435,642 348,642 348,620 376,620",
             textPoints : [379,622]
@@ -587,8 +587,8 @@ const Page = () => {
             unit : "210",
             level: "2",
             unitType : "Room Type - F",
-            unitStatus : "on-hold",
-            unitPrice : "8,892,870",
+            unitStatus : "sold",
+            unitPrice : "5712000",
             points: "12,650 137,650 137,717 12,717",
             textPoints : [55,690]
         },
@@ -597,7 +597,7 @@ const Page = () => {
             level: "3",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "6064000",
             points: "1224,489 1286,515 1286,579 1221,561",
             textPoints : [1232,545]
         },
@@ -606,7 +606,7 @@ const Page = () => {
             level: "3",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "5140000",
             points: "1168,456 1187,459 1220,489 1220,562 1184,548 1168,547",
             textPoints : [1171,519]
         },
@@ -615,7 +615,7 @@ const Page = () => {
             level: "3",
             unitType : "Room Type - F",
             unitStatus : "on-hold",
-            unitPrice : "8,892,870",
+            unitPrice : "12600000",
             points: "970,470 1164,455 1164,548 953,556 953,522 972,526",
             textPoints : [1030,522]
         },
@@ -633,7 +633,7 @@ const Page = () => {
             level: "3",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "8580000",
             points: "595,509 679,499 679,570 571,570 571,547 595,547",
             textPoints : [605,550]
         },
@@ -642,7 +642,7 @@ const Page = () => {
             level: "3",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "8580000",
             points: "477,516 548,511 548,575 453,574 453,554 478,553",
             textPoints : [480,555]
         },
@@ -651,7 +651,7 @@ const Page = () => {
             level: "3",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "8580000",
             points: "375,526 435,519 435,580 349,580 349,561 375,561",
             textPoints : [379,560]
         },
@@ -659,8 +659,8 @@ const Page = () => {
             unit : "308",
             level: "3",
             unitType : "Room Type - LOFT C",
-            unitStatus : "available",
-            unitPrice : "12285000",
+            unitStatus : "on-hold",
+            unitPrice : "7660000",
             points: "270,534 339,529 339,584 237,587 237,564 269,562",
             textPoints : [275,570]
         },
@@ -668,8 +668,8 @@ const Page = () => {
             unit : "309",
             level: "3",
             unitType : "Room Type - F",
-            unitStatus : "on-hold",
-            unitPrice : "8,892,870",
+            unitStatus : "sold",
+            unitPrice : "5812000",
             points: "16,525 144,525 144,594 16,594",
             textPoints : [55,572]
         },
@@ -678,7 +678,7 @@ const Page = () => {
             level: "4",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "6164000",
             points: "1227,418 1288,457 1287,514 1222,486",
             textPoints : [1232,485]
         },
@@ -687,7 +687,7 @@ const Page = () => {
             level: "4",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "5240000",
             points: "1169,364 1188,367 1221,416 1221,483 1187,453 1168,451",
             textPoints : [1170,440]
         },
@@ -695,7 +695,7 @@ const Page = () => {
             unit : "403",
             level: "4",
             unitType : "Room Type - I",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "12700000",
             points: "971,385 1165,364 1165,453 956,468 955,440 971,444",
             textPoints : [1030,430]
@@ -705,7 +705,7 @@ const Page = () => {
             level: "4",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "11000000",
             points: "729,422 907,402 909,475 706,490 706,463 730,465",
             textPoints : [772,460]
         },
@@ -714,7 +714,7 @@ const Page = () => {
             level: "4",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "8680000",
             points: "596,439 677,429 678,494 571,500 571,477 595,478",
             textPoints : [605,475]
         },
@@ -731,7 +731,7 @@ const Page = () => {
             unit : "407",
             level: "4",
             unitType : "Room Type - L",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "11800000",
             points: "268,475 338,467 338,523 238,527 238,505 270,505",
             textPoints : [275,505]
@@ -741,7 +741,7 @@ const Page = () => {
             level: "5",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "6264000",
             points: "1231,346 1286,396 1286,454 1230,414",
             textPoints : [1232,415]
         },
@@ -749,8 +749,8 @@ const Page = () => {
             unit : "502",
             level: "5",
             unitType : "Room Type - F",
-            unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitStatus : "on-hold",
+            unitPrice : "5340000",
             points: "1165,272 1188,275 1228,343 1223,408 1190,364 1168,359",
             textPoints : [1170,350]
         },
@@ -759,7 +759,7 @@ const Page = () => {
             level: "5",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "12800000",
             points: "971,296 1137,270 1162,271 1163,359 954,384 952,353 972,359",
             textPoints : [1030,340]
         },
@@ -768,7 +768,7 @@ const Page = () => {
             level: "5",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "11100000",
             points: "730,349 909,321 909,390 707,416 705,386 730,391",
             textPoints : [772,380]
         },
@@ -776,7 +776,7 @@ const Page = () => {
             unit : "505",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "8780000",
             points: "594,371 675,357 675,418 573,431 573,407 594,412",
             textPoints : [605,405]
         },
@@ -785,7 +785,7 @@ const Page = () => {
             level: "5",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "8780000",
             points: "478,389 547,378 548,433 455,445 455,422 478,425",
             textPoints : [485,425]
         },
@@ -793,8 +793,8 @@ const Page = () => {
             unit : "507",
             level: "5",
             unitType : "Room Type - F",
-            unitStatus : "on-hold",
-            unitPrice : "8,892,870",
+            unitStatus : "sold",
+            unitPrice : "8780000",
             points: "376,404 435,396 435,445 349,457 350,438 375,439",
             textPoints : [379,435]
         },
@@ -812,7 +812,7 @@ const Page = () => {
             level: "6",
             unitType : "Room Type - PH G",
             unitStatus : "available",
-            unitPrice : "10830000",
+            unitPrice : "13500000",
             points: "1221,183 1248,230 1289,274 1287,391 1222,328",
             textPoints : [1232,315]
         },
@@ -821,7 +821,7 @@ const Page = () => {
             level: "6",
             unitType : "Room Type - PH-G",
             unitStatus : "sold",
-            unitPrice : "10,830,000",
+            unitPrice : "7875000",
             points: "1163,86 1189,95 1220,182 1220,326 1188,273 1164,267",
             textPoints : [1165,235]
         },
@@ -829,7 +829,7 @@ const Page = () => {
             unit : "603",
             level: "6",
             unitType : "Room Type - PH I",
-            unitStatus : "available",
+            unitStatus : "sold",
             unitPrice : "30000000",
             points: "972,124 1128,84 1157,86 1158,265 958,298 956,271 972,272",
             textPoints : [1030,220]
@@ -838,7 +838,7 @@ const Page = () => {
             unit : "604",
             level: "6",
             unitType : "Room Type - PH J",
-            unitStatus : "available",
+            unitStatus : "sold",
             unitPrice : "17020500",
             points: "731,203 905,162 903,304 708,338 707,312 729,316",
             textPoints : [772,265]
@@ -848,7 +848,7 @@ const Page = () => {
             level: "6",
             unitType : "Room Type - PH K 605",
             unitStatus : "available",
-            unitPrice : "15855000",
+            unitPrice : "16500000",
             points: "595,236 671,214 674,343 571,359 571,335 595,340",
             textPoints : [605,300]
         },
@@ -857,7 +857,7 @@ const Page = () => {
             level: "6",
             unitType : "Room Type - PH K 606",
             unitStatus : "available",
-            unitPrice : "15855000",
+            unitPrice : "16500000",
             points: "478,263 544,244 547,363 453,379 452,356 476,360",
             textPoints : [485,320]
         },
@@ -866,7 +866,7 @@ const Page = () => {
             level: "6",
             unitType : "Room Type - PH K 607",
             unitStatus : "available",
-            unitPrice : "15855000",
+            unitPrice : "16500000",
             points: "379,284 434,271 434,380 350,394 350,374 376,375",
             textPoints : [379,345]
         },
@@ -875,7 +875,7 @@ const Page = () => {
             level: "6",
             unitType : "Room Type - F",
             unitStatus : "sold",
-            unitPrice : "8,892,870",
+            unitPrice : "18165000",
             points: "265,306 338,291 339,395 236,412 234,391 268,387",
             textPoints : [275,365]
         },
