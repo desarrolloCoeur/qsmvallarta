@@ -324,6 +324,22 @@ const tab2023 = [
     },
 ]
 
+const tab2024 = [
+    {
+        label : 'January',
+        images : ['/img/work-in-progress/2024/january/january-1.jpg',
+        '/img/work-in-progress/2024/january/january-2.jpg',
+        '/img/work-in-progress/2024/january/january-3.jpg',
+        '/img/work-in-progress/2024/january/january-4.jpg',
+        '/img/work-in-progress/2024/january/january-5.jpg',
+        '/img/work-in-progress/2024/january/january-6.jpg',
+        '/img/work-in-progress/2024/january/january-7.jpg',
+        '/img/work-in-progress/2024/january/january-8.jpg',
+        '/img/work-in-progress/2024/january/january-9.jpg',
+        '/img/work-in-progress/2024/january/january-10.jpg',
+        '/img/work-in-progress/2024/january/january-11.jpg',]
+    },
+]
 
 const page = () => {
     return (
@@ -331,8 +347,12 @@ const page = () => {
             <h1 className="text-center lg:text-6xl text-4xl font-semibold">Work in Progress <br/> Ocean & Canal 1</h1>
              
             {/* <p className="text-xl font-bold uppercase">Year:</p> */}
+            <div id="2024" >
+                <p className="text-xl font-bold uppercase">Year: 2024</p>
+                <Tabs tabs={tab2024}/>
+            </div>
 
-            <div id="2023">
+            <div id="2023" className="pt-12">
                 <p className="text-xl font-bold uppercase">Year: 2023</p>
                 <Tabs tabs={tab2023}/>
             </div>

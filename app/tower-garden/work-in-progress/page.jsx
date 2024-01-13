@@ -59,12 +59,30 @@ const tab = [
 },
 ]
 
+const tabs2 = [
+  {
+    label : 'January',
+    images : ['/img/tower-garden/2024/january/january-1.jpg',
+    '/img/tower-garden/2024/january/january-2.jpg',
+    '/img/tower-garden/2024/january/january-3.jpg',
+    '/img/tower-garden/2024/january/january-4.jpg',
+    '/img/tower-garden/2024/january/january-5.jpg',
+    '/img/tower-garden/2024/january/january-6.jpg',
+    '/img/tower-garden/2024/january/january-7.jpg',
+    '/img/tower-garden/2024/january/january-8.jpg',
+    '/img/tower-garden/2024/january/january-9.jpg',
+      ]
+  },
+]
+
 
 const page = () => {
   return (
     <div className="pt-32 container mx-auto w-11/12">
         <h1 className="text-center lg:text-6xl text-4xl font-semibold">Work in Progress <br/> Garden</h1>
-        <p className="text-xl font-bold uppercase">Year: 2023</p>
+        <p className="text-xl font-bold uppercase">Year: 2024</p>
+        <Tabs tabs={tabs2}/>
+        <p className="text-xl font-bold uppercase mt-10">Year: 2023</p>
         <Tabs tabs={tab}/>
     </div>
   )
