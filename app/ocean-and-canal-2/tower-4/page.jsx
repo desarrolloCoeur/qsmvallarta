@@ -291,6 +291,23 @@ const Page = () => {
             terracem: "42",
             terracesqf: "452",
         },
+        {
+            id: "13",
+            title: "Room Type - Loft C",
+            bedrooms: "1",
+            bathroom: "1",
+            size: "90 m2 – 968.40 ft2.",
+            gallery: [
+                //"/img/tower-4/roomPHL.webp",
+                "/img/tower-4/1-bed-2.jpg",
+                "/img/tower-4/1-bed.jpg",
+            ],
+            plan: "#",
+            interiorm: "67",
+            interiorsqf: "720.92",
+            terracem: "23",
+            terracesqf: "247.48",
+        },
     ];
 
     const dataPenthouses = [
@@ -446,6 +463,7 @@ const Page = () => {
             roofmp: "98",
             roofsqf: "1055",
         },
+        
     ];
 
     const units = [
@@ -577,7 +595,7 @@ const Page = () => {
         {
             unit : "209",
             level: "2",
-            unitType : "Room Type - LOFT C",
+            unitType : "Room Type - Loft C",
             unitStatus : "available",
             unitPrice : "7560000",
             points: "269,587 336,584 336,643 238,643 238,623 269,623",
@@ -614,7 +632,7 @@ const Page = () => {
             unit : "303",
             level: "3",
             unitType : "Room Type - F",
-            unitStatus : "on-hold",
+            unitStatus : "available",
             unitPrice : "12600000",
             points: "970,470 1164,455 1164,548 953,556 953,522 972,526",
             textPoints : [1030,522]
@@ -811,7 +829,7 @@ const Page = () => {
             unit : "601",
             level: "6",
             unitType : "Room Type - PH G",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "13500000",
             points: "1221,183 1248,230 1289,274 1287,391 1222,328",
             textPoints : [1232,315]
@@ -847,7 +865,7 @@ const Page = () => {
             unit : "605",
             level: "6",
             unitType : "Room Type - PH K 605",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "16500000",
             points: "595,236 671,214 674,343 571,359 571,335 595,340",
             textPoints : [605,300]
@@ -856,7 +874,7 @@ const Page = () => {
             unit : "606",
             level: "6",
             unitType : "Room Type - PH K 606",
-            unitStatus : "available",
+            unitStatus : "sold",
             unitPrice : "16500000",
             points: "478,263 544,244 547,363 453,379 452,356 476,360",
             textPoints : [485,320]

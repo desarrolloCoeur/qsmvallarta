@@ -389,7 +389,7 @@ const Page = () => {
             unit : "304",
             unitType : "Room Type - Q",
             level: "3",
-            unitStatus : "available",
+            unitStatus : "sold",
             unitPrice : "5056000",
             points: "880 500, 880 560, 820 580, 820 515",
             textPoints : [820,550]
@@ -540,7 +540,7 @@ const Page = () => {
         },
         {
             unit : "505",
-            unitType : "Room Type - k",
+            unitType : "Room Type - K",
             level: "5",
             unitStatus : "available",
             unitPrice : "8990000",
@@ -605,7 +605,7 @@ const Page = () => {
             unit : "606",
             unitType : "Room Type - R PH CORNER",
             level: "6",
-            unitStatus : "available",
+            unitStatus : "sold",
             unitPrice : "25000000", 
             points: "370 200, 510 260, 510 310, 540 330, 540 475, 410 520, 150 440, 150 410, 190 400, 190 270",
             textPoints : [300,400]
