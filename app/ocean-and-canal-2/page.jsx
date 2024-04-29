@@ -1,13 +1,18 @@
 import BuildingCard from '@/components/ui/BuildingCard'
 import BuildingHero from '@/components/ui/BuildingHero'
 import VideoAutoplayOcean from '@/components/ui/VideoAutoplayOceanTwo'
-import React from 'react'
+import Image from 'next/image'
 
 
 const page = () => {
     return (
         <>
-            <VideoAutoplayOcean />
+            <div className='hidden md:block'>
+                <VideoAutoplayOcean />
+            </div>
+            <div>
+                <Image src="/img/11.webp" width={1920} height={1080} alt='' className='md:hidden'/>
+            </div>
 
             <div className="lg:mx-24 mx-6 lg:pt-12 pt-6 mb-14">
                 <div className="grid lg:grid-cols-2 grid-cols-1 gap-6 ">

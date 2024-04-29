@@ -339,6 +339,19 @@ const tab2024 = [
         '/img/work-in-progress/2024/january/january-10.jpg',
         '/img/work-in-progress/2024/january/january-11.jpg',]
     },
+    {
+        label : 'February',
+        images : ['/img/work-in-progress/2024/february/february-1.jpg',
+        '/img/work-in-progress/2024/february/february-2.jpg',
+        '/img/work-in-progress/2024/february/february-3.jpg',
+        '/img/work-in-progress/2024/february/february-4.jpg',
+        '/img/work-in-progress/2024/february/february-5.jpg',
+        '/img/work-in-progress/2024/february/february-6.jpg',
+        '/img/work-in-progress/2024/february/february-7.jpg',
+        '/img/work-in-progress/2024/february/february-8.jpg',
+        '/img/work-in-progress/2024/february/february-9.jpg',
+       ]
+    },
 ]
 
 const page = () => {

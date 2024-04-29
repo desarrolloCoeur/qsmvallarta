@@ -55,7 +55,7 @@ const tab = [
   '/img/tower-garden/2023/diciembre/garden-dic-7.webp',
   '/img/tower-garden/2023/diciembre/garden-dic-8.webp',
   '/img/tower-garden/2023/diciembre/garden-dic-9.webp',
-            ]
+  ]
 },
 ]
 
@@ -71,6 +71,35 @@ const tabs2 = [
     '/img/tower-garden/2024/january/january-7.jpg',
     '/img/tower-garden/2024/january/january-8.jpg',
     '/img/tower-garden/2024/january/january-9.jpg',
+      ]
+  },
+  {
+    label : 'February',
+    images : ['/img/tower-garden/2024/february/february-1.jpg',
+    '/img/tower-garden/2024/february/february-2.jpg',
+    '/img/tower-garden/2024/february/february-3.jpg',
+    '/img/tower-garden/2024/february/february-4.jpg',
+    '/img/tower-garden/2024/february/february-5.jpg',
+    '/img/tower-garden/2024/february/february-6.jpg',
+    '/img/tower-garden/2024/february/february-7.jpg',
+    '/img/tower-garden/2024/february/february-8.jpg',
+    '/img/tower-garden/2024/february/february-9.jpg',
+      ]
+  },
+  {
+    label : 'March',
+    images : ['/img/tower-garden/2024/march/garden-march-1.jpg',
+    '/img/tower-garden/2024/march/garden-march-2.jpg',
+    '/img/tower-garden/2024/march/garden-march-3.jpg',
+    '/img/tower-garden/2024/march/garden-march-4.jpg',
+    '/img/tower-garden/2024/march/garden-march-5.jpg',
+    '/img/tower-garden/2024/march/garden-march-6.jpg',
+    '/img/tower-garden/2024/march/garden-march-7.jpg',
+    '/img/tower-garden/2024/march/garden-march-8.jpg',
+    '/img/tower-garden/2024/march/garden-march-9.jpg',
+    '/img/tower-garden/2024/march/garden-march-10.jpg',
+    '/img/tower-garden/2024/march/garden-march-11.jpg',
+
       ]
   },
 ]

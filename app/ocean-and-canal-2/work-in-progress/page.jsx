@@ -41,17 +41,80 @@ const tab2 = [
         '/img/ocean-canal-2/2024/january/january-5.jpg',
     ]
     },
+    {
+        label : 'February',
+        images : ['/img/ocean-canal-2/2024/february/february-t4-1.jpg',
+        '/img/ocean-canal-2/2024/february/february-t4-2.jpg',
+        '/img/ocean-canal-2/2024/february/february-t4-3.jpg',
+        '/img/ocean-canal-2/2024/february/february-t4-4.jpg',
+        '/img/ocean-canal-2/2024/february/february-t4-5.jpg',
+        '/img/ocean-canal-2/2024/february/february-t4-6.jpg',
+        '/img/ocean-canal-2/2024/february/february-t4-7.jpg',
+        ]
+    },
+    {
+        label : 'March',
+        images : ['/img/ocean-canal-2/2024/march/march-t4-1.jpg',
+            '/img/ocean-canal-2/2024/march/march-t4-2.jpg',
+            '/img/ocean-canal-2/2024/march/march-t4-3.jpg',
+            '/img/ocean-canal-2/2024/march/march-t4-4.jpg',
+            '/img/ocean-canal-2/2024/march/march-t4-5.jpg',
+            '/img/ocean-canal-2/2024/march/march-t4-6.jpg',
+        ]
+    },
+]
+
+const towerFive2024 = [
+    {
+        label : 'February',
+        images : ['/img/ocean-canal-2/2024/february/february-t5-1.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-2.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-3.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-4.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-5.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-6.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-7.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-8.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-9.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-10.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-11.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-12.jpg',
+        '/img/ocean-canal-2/2024/february/february-t5-13.jpg',
+        ]
+    },
+    {
+        label : 'March',
+        images : [
+            
+            '/img/ocean-canal-2/2024/march/tower-5-march-1.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-3.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-4.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-5.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-6.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-7.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-8.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-9.jpg',
+        ]
+    }
+
 ]
 const page = () => {
     return (
         <div className="pt-32 container mx-auto w-11/12">
             <h1 className="text-center lg:text-6xl text-4xl font-semibold">Work in Progress <br/> Ocean & Canal 2</h1>
-            
+            <h2>Tower 4</h2>
             <p className="text-xl font-bold uppercase">Year: 2024</p>
             <Tabs tabs={tab2}/>
 
             <p className="text-xl font-bold uppercase mt-10">Year: 2023</p>
             <Tabs tabs={tab1}/>
+
+            <h2 className="mt-10">Tower 5</h2>
+            <p className="text-xl font-bold uppercase">Year: 2024</p>
+            <Tabs tabs={towerFive2024}/>
+
+
+
 
         </div>
 

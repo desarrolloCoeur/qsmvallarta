@@ -26,6 +26,11 @@ const Page = () => {
     const [isPopupOpen, setisPopupOpen] = useState(false);
     const [selectePrice ,setSelectedPrice] = useState("discount");
 
+    const convertToFt = (size) => {
+        let ft = parseFloat(size) * 10.7638;
+        return parseFloat(ft.toFixed(2));
+    }
+
     const handlePriceOption = (option) => {
         setSelectedPrice(option);
         console.log(option);
@@ -239,7 +244,8 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "18672000",
             points: "1165 540,1285 590,1080 665,1000 640,1000 595",
-            textPoints : [1120,610]
+            textPoints : [1120,610],
+            size: [135,123]
         },
         {
             unit : "102",
@@ -248,7 +254,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "11020000",
             points: "885 625,885 680,950 700, 1080 665, 1000 640, 1000 595",
-            textPoints : [950,670]
+            textPoints : [950,670],
+            size: [105,64.5]
+
         },
         {
             unit : "103",
@@ -257,7 +265,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "11020000",
             points: "540 745,650 705,750 740, 750 770, 620 815, 540 790",
-            textPoints : [620,770]
+            textPoints : [620,770],
+            size: [105,64.5]
+
         },
         {
             unit : "104",
@@ -266,7 +276,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "25008000",
             points: "410 787, 540 745, 540 790, 620 815, 410 880, 90 775, 90 745, 185 712",
-            textPoints : [320,820]
+            textPoints : [320,820],
+            size: [135,222]
+
         },
         {
             unit : "201",
@@ -275,7 +287,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "12320000",
             points: "1115 492, 1165 510, 1165 540, 1038 583, 1035 515",
-            textPoints : [1070,540]
+            textPoints : [1070,540],
+            size: [114,50]
+
         },
         {
             unit : "202",
@@ -284,7 +298,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "7560000",
             points: "1035 515, 1038 583, 930 613, 930 545",
-            textPoints : [960,570]
+            textPoints : [960,570],
+            size: [80,10]
+
         },
         {
             unit : "203",
@@ -293,7 +309,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "4620000",
             points: "930 545, 880 560, 880 625, 930 615",
-            textPoints : [880,600]
+            textPoints : [880,600],
+            size: [48,7]
+
         },
         {
             unit : "204",
@@ -302,7 +320,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "4956000",
             points: "880 560, 880 625, 820 645, 820 580",
-            textPoints : [820,610]
+            textPoints : [820,610],
+            size: [53,6]
+
         },
         {
             unit : "205",
@@ -311,25 +331,30 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "4956000",
             points: "770 600, 770 665, 820 645, 820 580",
-            textPoints : [770,630]
+            textPoints : [770,630],
+            size: [53,6]
+
         },
         {
             unit : "206",
             unitType : "Room Type - Q",
             level: "2",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "4956000",
             points: "770 600, 770 665, 700 690, 700 625",
-            textPoints : [710,650]
+            textPoints : [710,650],
+            size: [53,6]
+
         },
         {
             unit : "207",
             unitType : "Room Type - Q",
             level: "2",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "4956000",
             points: " 700 690, 700 625, 660 635, 660 700",
-            textPoints : [660,670]
+            textPoints : [660,670],
+            size: [53,6]
         },
         {
             unit : "208",
@@ -338,7 +363,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "4620000",
             points: "590 725, 590 660, 660 635, 660 700",
-            textPoints : [600,690]
+            textPoints : [600,690],
+            size: [48,7]
+
         },
         {
             unit : "209",
@@ -347,7 +374,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "7560000",
             points: "500 690, 500 758, 590 725, 590 660",
-            textPoints : [520,720]
+            textPoints : [520,720],
+            size: [80,10]
+
         },
         {
             unit : "210",
@@ -356,7 +385,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "12320000",
             points: "410 720, 500 690, 500 758, 410 788, 140 700, 140 685, 190 680, 190 650",
-            textPoints : [260,715]
+            textPoints : [260,715],
+            size: [114,50]
+
         },
         {
             unit : "301",
@@ -365,7 +396,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "12420000",
             points: "1035 515, 1035 450, 1115 425, 1165 445, 1165 480",
-            textPoints : [1070,470]
+            textPoints : [1070,470],
+            size: [114,50]
+
         },
         {
             unit : "302",
@@ -374,7 +407,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "7660000",
             points: "1035 515, 930 545, 930 480, 1035 450",
-            textPoints : [960,500]
+            textPoints : [960,500],
+            size: [80,10]
+
         },
         {
             unit : "303",
@@ -383,7 +418,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "4720000",
             points: "880 500, 930 480, 930 545, 880 560",
-            textPoints : [880,530]
+            textPoints : [880,530],
+            size: [48,7]
+
         },
         {
             unit : "304",
@@ -392,7 +429,9 @@ const Page = () => {
             unitStatus : "sold",
             unitPrice : "5056000",
             points: "880 500, 880 560, 820 580, 820 515",
-            textPoints : [820,550]
+            textPoints : [820,550],
+            size: [53,6]
+
         },
         {
             unit : "305",
@@ -401,7 +440,9 @@ const Page = () => {
             unitStatus : "sold",
             unitPrice : "5056000",
             points: "820 580, 820 515, 770 530, 770 600",
-            textPoints : [770,570]
+            textPoints : [770,570],
+            size: [53,6]
+
         },
         {
             unit : "306",
@@ -410,7 +451,8 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "8900000",
             points: "650 570, 770 530, 770 600, 650 640",
-            textPoints : [690,590]
+            textPoints : [690,590],
+            size: [105.5,15.5]
         },
         {
             unit : "307",
@@ -419,7 +461,8 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "8900000",
             points: "650 570, 650 640, 540 680, 540 610",
-            textPoints : [580,630]
+            textPoints : [580,630],
+            size: [105.5,15.5]
         },
         {
             unit : "308",
@@ -428,7 +471,8 @@ const Page = () => {
             unitStatus : "sold",
             unitPrice : "15120000",
             points: "410 655, 540 610, 540 680, 410 720,  140 635, 140 620,  190 615, 190 585",
-            textPoints : [260,655]
+            textPoints : [260,655],
+            size: [135,54]
         },
         {
             unit : "401",
@@ -437,7 +481,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "12520000",
             points: " 1035 450, 1035 385, 1115 360,  1165 380, 1165 410",
-            textPoints : [1070,400]
+            textPoints : [1070,400],
+            size: [114,50]
+
         },
         {
             unit : "402",
@@ -446,7 +492,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "7760000",
             points: "930 480, 1035 450, 1035 385, 930 410",
-            textPoints : [960,435]
+            textPoints : [960,435],
+            size: [80,10]
+
         },
         {
             unit : "403",
@@ -455,7 +503,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "4820000",
             points: "880 430, 880 500, 930 480, 930 415",
-            textPoints : [880,460]
+            textPoints : [880,460],
+            size: [48,7]
+
         },
         {
             unit : "404",
@@ -464,7 +514,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "8950000",
             points: "880 430, 770 465, 770 530, 880 500",
-            textPoints : [800,490]
+            textPoints : [800,490],
+            size: [105.5,14.5]
+
         },
         {
             unit : "405",
@@ -473,7 +525,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "8950000",
             points: "770 465, 650 505, 650 570, 770 530",
-            textPoints : [690,520]
+            textPoints : [690,520],
+            size: [105.5,14.5]
+
         },
         {
             unit : "406",
@@ -482,16 +536,20 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "4820000",
             points: "590 593, 590 525, 650 500, 650 570",
-            textPoints : [590,560]
+            textPoints : [590,560],
+            size: [48,7]
+
         },
         {
             unit : "407",
             unitType : "Room Type - O",
             level: "4",
-            unitStatus : "on-hold",
+            unitStatus : "available",
             unitPrice : "7760000",
             points: "500 560, 500 625, 590 593, 590 525",
-            textPoints : [520,580]
+            textPoints : [520,580],
+            size: [80,10]
+
         },
         {
             unit : "408",
@@ -500,7 +558,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "12520000",
             points: " 410 590, 500 560, 500 625, 410 655, 140 570, 140 555, 190 545, 190 515",
-            textPoints : [260,585]
+            textPoints : [260,585],
+            size: [114,50]
+
         },
         {
             unit : "501",
@@ -509,25 +569,31 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "15220000",
             points: "1000 393, 1000 325, 1115 290, 1165 310, 1165 345",
-            textPoints : [1070,335]
+            textPoints : [1070,335],
+            size: [135,54]
+
         },
         {
             unit : "502",
             unitType : "Room Type - K",
             level: "5",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "8990000",
             points: "1000 393, 1000 325, 880 360, 880 430",
-            textPoints : [920,375]
+            textPoints : [920,375],
+            size: [105.5,14.5]
+
         },
         {
             unit : "503",
             unitType : "Room Type - K",
             level: "5",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "8990000",
             points: "880 360, 880 430, 770 465, 770 395",
-            textPoints : [800,420]
+            textPoints : [800,420],
+            size: [105.5,14.5]
+
         },
         {
             unit : "504",
@@ -536,43 +602,53 @@ const Page = () => {
             unitStatus : "sold",
             unitPrice : "8990000",
             points: "770 465, 770 395, 650 435, 650 505",
-            textPoints : [690,450]
+            textPoints : [690,450],
+            size: [105.5,14.5]
+
         },
         {
             unit : "505",
             unitType : "Room Type - K",
             level: "5",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "8990000",
             points: " 650 435, 650 505, 540 545, 540 475",
-            textPoints : [560,500]
+            textPoints : [560,500],
+            size: [105.5,14.5]
+
         },
         {
             unit : "506",
             unitType : "Room Type - M",
             level: "5",
-            unitStatus : "available",
+            unitStatus : "on-hold",
             unitPrice : "15220000",
             points: "540 475, 540 545, 410 590, 140 500, 140 480, 190 480, 190 450, 410 520",
-            textPoints : [260,515]
+            textPoints : [260,515],
+            size: [135, 54]
+
         },
         {
             unit : "601",
             unitType : "Room Type - R PH CORNER",
             level: "6",
-            unitStatus : "available",
+            unitStatus : "sold",
             unitPrice : "20510000",
             points: "980 330, 980 120, 820 40, 910 10, 1170 100, 1170 140, 1120 150, 1120 230, 1170 250, 1170 275",
-            textPoints : [1030,230]
+            textPoints : [1030,230],
+            size: [217, 157.5]
+
         },
         {
             unit : "602",
             unitType : "Room Type - S PH ROOF",
             level: "6",
-            unitStatus : "available",
+            unitStatus : "sold",
             unitPrice : "16640000",
             points: "880 360, 880 220, 910 210, 910 120, 740 70, 820 40, 980 120, 980 330",
-            textPoints : [910,275]
+            textPoints : [910,275],
+            size: [199, 72]
+
         },
         {
             unit : "603",
@@ -581,7 +657,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "14720000",
             points: "880 360, 770 395, 770 255, 880 220",
-            textPoints : [800,320]
+            textPoints : [800,320],
+            size: [199, 12]
+
         },
         {
             unit : "604",
@@ -590,7 +668,9 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "14720000",
             points: "770 395, 770 255, 650 295, 650 435",
-            textPoints : [690,350]
+            textPoints : [690,350],
+            size: [172, 12]
+
         },
         {
             unit : "605",
@@ -599,16 +679,20 @@ const Page = () => {
             unitStatus : "available",
             unitPrice : "16640000",
             points: "650 295, 650 435, 540 475, 540 330, 510 310, 510 260, 370 200, 420 190, 580 250, 580 290",
-            textPoints : [560,400]
+            textPoints : [560,400],
+            size: [172, 72]
+
         },
         {
             unit : "606",
             unitType : "Room Type - R PH CORNER",
             level: "6",
-            unitStatus : "sold",
+            unitStatus : "on-hold",
             unitPrice : "25000000", 
             points: "370 200, 510 260, 510 310, 540 330, 540 475, 410 520, 150 440, 150 410, 190 400, 190 270",
-            textPoints : [300,400]
+            textPoints : [300,400],
+            size: [217, 157.5]
+
         }
     ]
 
@@ -702,7 +786,7 @@ const Page = () => {
                         <p><strong>Bathroom(s):</strong> {selectedUnitType.bathroom}</p>
                         <p><strong>Level:</strong> {selectedUnit.level}</p>
                         <p><strong>Tower:</strong> 5</p>
-                        <p><strong>Size:</strong> {selectedUnitType.size}</p>
+                        <p><strong>Size:</strong> {`${selectedUnit.size[0] + selectedUnit.size[1]}M2 - ${convertToFt(selectedUnit.size[0]) + convertToFt(selectedUnit.size[1])}FT2`}</p>
 
                         <table className="flex items-center gap-2 border-collapse">
                             <tbody>
@@ -720,10 +804,10 @@ const Page = () => {
                                         Interior
                                     </td>
                                     <td className="border border-slate-300 py-1 px-3">
-                                        {selectedUnitType.interiorm}
+                                        {selectedUnit.size[0]}
                                     </td>
                                     <td className="border border-slate-300 py-1 px-3">
-                                        {selectedUnitType.interiorsqf}
+                                        {convertToFt(selectedUnit.size[0])}
                                     </td>
                                 </tr>
                                 <tr>
@@ -731,10 +815,11 @@ const Page = () => {
                                         Terrace
                                     </td>
                                     <td className="border border-slate-300 py-1 px-3">
-                                        {selectedUnitType.terracem}
+                                        {selectedUnit.size[1]}
                                     </td>
                                     <td className="border border-slate-300 py-1 px-3">
-                                        {selectedUnitType.terracesqf}
+                                        {convertToFt(selectedUnit.size[1])}
+
                                     </td>
                                 </tr>
                                 { selectedUnitType.roofmp && (
