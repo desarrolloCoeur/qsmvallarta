@@ -978,7 +978,7 @@ const Page = () => {
             level: "6",
             unitType : "Room Type - PH K 607",
             unitStatus : "available",
-            unitPrice : "16500000",
+            unitPrice : "19320000",
             points: "379,284 434,271 434,380 350,394 350,374 376,375",
             textPoints : [379,345],
             size: [162,106]
