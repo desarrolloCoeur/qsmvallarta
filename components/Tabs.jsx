@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from 'swiper/modules';
@@ -8,7 +7,6 @@ import { Pagination, Navigation } from 'swiper/modules';
 import "swiper/css";
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
 import Image from "next/image";
 
 const Tabs = ({ tabs }) => {
@@ -21,19 +19,26 @@ const Tabs = ({ tabs }) => {
 
     return (
         <div className="tabs">
-            <ul className="flex gap-5 overflow-x-auto">
+            <Swiper
+                slidesPerView={'auto'}
+                className="bg-[rgba(0,0,0,.13)] rounded-md "
+
+            >
                 {tabs.map((tab, index) => (
-                    <li
+                    <SwiperSlide
                         key={index}
-                        className={`cursor-pointer text-xl p-1 rounded-md ${
+                        className={`cursor-pointer text-xl px-4 py-2 rounded-md text-center !w-fit ${
                             index === activeTab ? "bg-main text-white" : ""
                         }`}
                         onClick={() => handleClick(index)}
                     >
                         {tab.label}
-                    </li>
+                    </SwiperSlide>
                 ))}
-            </ul>
+            </Swiper>
+
+
+
             <Swiper
                 key={uniqueKey}
                 spaceBetween={50}

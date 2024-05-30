@@ -64,14 +64,29 @@ const tab2 = [
     },
     {
         label : 'April',
-        images : ['/img/ocean-canal-2/2024/april/torre-4-1.jpg',
-            '/img/ocean-canal-2/2024/april/torre-4-2.jpg',
-            '/img/ocean-canal-2/2024/april/torre-4-3.jpg',
-            '/img/ocean-canal-2/2024/april/torre-4-4.jpg',
-            '/img/ocean-canal-2/2024/april/torre-4-5.jpg',
-            '/img/ocean-canal-2/2024/april/torre-4-6.jpg',
-            '/img/ocean-canal-2/2024/april/torre-4-7.jpg',
+        images : [
+            '/img/ocean-canal-2/2024/april/torre-4-1.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-4-2.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-4-3.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-4-4.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-4-5.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-4-6.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-4-7.jpeg',
+            
         ]
+    },
+    {
+        label : 'May',
+        images : ['/img/ocean-canal-2/2024/may/torre-4-1.jpg',
+            '/img/ocean-canal-2/2024/may/torre-4-2.jpg',
+            '/img/ocean-canal-2/2024/may/torre-4-3.jpg',
+            '/img/ocean-canal-2/2024/may/torre-4-4.jpg',
+            '/img/ocean-canal-2/2024/may/torre-4-5.jpg',
+            '/img/ocean-canal-2/2024/may/torre-4-6.jpg',
+            '/img/ocean-canal-2/2024/may/torre-4-7.jpg',
+            
+        ]
+       
     }
 ]
 
@@ -107,18 +122,27 @@ const towerFive2024 = [
             '/img/ocean-canal-2/2024/march/tower-5-march-9.jpg',
         ]
     },
+    
     {
         label : 'April',
         images : [
+            '/img/ocean-canal-2/2024/april/torre-5-2.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-5-4.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-5-5.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-5-6.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-5-7.jpeg',
+            '/img/ocean-canal-2/2024/april/torre-5-8.jpeg',
+        ]
+    },
+    {
+        label : 'May',
+        images : [
+            '/img/ocean-canal-2/2024/may/torre-5-1.jpg',
+            '/img/ocean-canal-2/2024/may/torre-5-2.jpg',
+            '/img/ocean-canal-2/2024/may/torre-5-3.jpg',
+            '/img/ocean-canal-2/2024/may/torre-5-4.jpg',
+            '/img/ocean-canal-2/2024/may/torre-5-5.jpg',
             
-            '/img/ocean-canal-2/2024/march/tower-5-march-1.jpg',
-            '/img/ocean-canal-2/2024/march/tower-5-march-3.jpg',
-            '/img/ocean-canal-2/2024/march/tower-5-march-4.jpg',
-            '/img/ocean-canal-2/2024/march/tower-5-march-5.jpg',
-            '/img/ocean-canal-2/2024/march/tower-5-march-6.jpg',
-            '/img/ocean-canal-2/2024/march/tower-5-march-7.jpg',
-            '/img/ocean-canal-2/2024/march/tower-5-march-8.jpg',
-            '/img/ocean-canal-2/2024/march/tower-5-march-9.jpg',
         ]
     }
 
