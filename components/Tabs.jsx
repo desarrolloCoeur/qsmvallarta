@@ -14,7 +14,6 @@ import Image from "next/image";
 const Tabs = ({ tabs }) => {
     const [uniqueKey, setUniqueKey] = useState(0);
     const [activeTab, setActiveTab] = useState(0);
-
     const handleClick = (index) => {
         setActiveTab(index);
         setUniqueKey(uniqueKey + 1);
@@ -22,7 +21,7 @@ const Tabs = ({ tabs }) => {
 
     return (
         <div className="tabs">
-            <ul className="flex gap-5">
+            <ul className="flex gap-5 overflow-x-auto">
                 {tabs.map((tab, index) => (
                     <li
                         key={index}

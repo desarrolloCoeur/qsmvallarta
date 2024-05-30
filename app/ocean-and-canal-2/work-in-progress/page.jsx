@@ -54,7 +54,7 @@ const tab2 = [
     },
     {
         label : 'March',
-        images : ['/img/ocean-canal-2/2024/march/march-t4-1.jpg',
+        images : [
             '/img/ocean-canal-2/2024/march/march-t4-2.jpg',
             '/img/ocean-canal-2/2024/march/march-t4-3.jpg',
             '/img/ocean-canal-2/2024/march/march-t4-4.jpg',
@@ -62,6 +62,17 @@ const tab2 = [
             '/img/ocean-canal-2/2024/march/march-t4-6.jpg',
         ]
     },
+    {
+        label : 'April',
+        images : ['/img/ocean-canal-2/2024/april/torre-4-1.jpg',
+            '/img/ocean-canal-2/2024/april/torre-4-2.jpg',
+            '/img/ocean-canal-2/2024/april/torre-4-3.jpg',
+            '/img/ocean-canal-2/2024/april/torre-4-4.jpg',
+            '/img/ocean-canal-2/2024/april/torre-4-5.jpg',
+            '/img/ocean-canal-2/2024/april/torre-4-6.jpg',
+            '/img/ocean-canal-2/2024/april/torre-4-7.jpg',
+        ]
+    }
 ]
 
 const towerFive2024 = [
@@ -84,6 +95,20 @@ const towerFive2024 = [
     },
     {
         label : 'March',
+        images : [
+            
+            '/img/ocean-canal-2/2024/march/tower-5-march-1.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-3.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-4.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-5.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-6.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-7.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-8.jpg',
+            '/img/ocean-canal-2/2024/march/tower-5-march-9.jpg',
+        ]
+    },
+    {
+        label : 'April',
         images : [
             
             '/img/ocean-canal-2/2024/march/tower-5-march-1.jpg',
