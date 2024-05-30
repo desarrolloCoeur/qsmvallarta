@@ -121,6 +121,18 @@ const tabs2 = [
       '/img/tower-garden/2024/april/garden-21.jpeg',
       '/img/tower-garden/2024/april/garden-22.jpeg',
     ]
+  },
+  {
+    label: 'May',
+    images : [
+      '/img/tower-garden/2024/may/tower-garden-1.jpg',
+      '/img/tower-garden/2024/may/tower-garden-2.jpg',
+      '/img/tower-garden/2024/may/tower-garden-3.jpg',
+      '/img/tower-garden/2024/may/tower-garden-4.jpg',
+      '/img/tower-garden/2024/may/tower-garden-5.jpg',
+      '/img/tower-garden/2024/may/tower-garden-6.jpg',
+      '/img/tower-garden/2024/may/tower-garden-7.jpg',
+    ]
   }
 ]
 
